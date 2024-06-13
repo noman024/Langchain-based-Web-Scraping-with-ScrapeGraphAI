@@ -1,0 +1,118 @@
+{
+    "Projects": [
+        {
+            "Title": "Neural Network for Digit Recognition",
+            "Architecture": "Neural Network",
+            "Tech": [
+                "Tensorflow",
+                "Keras",
+                "Scikit-learn",
+                "Seaborn",
+                "Matplotlib",
+                "Numpy",
+                "Pandas"
+            ],
+            "Git Link": "https://github.com/noman024/MNIST-digit-recognition-with-neuralNet-from-scratch.git",
+            "Accuracy": "99.81%"
+        },
+        {
+            "Title": "News Classification with Naive Bayes Theorem",
+            "Architecture": "Multinomial Naive Bayes classifier",
+            "Tech": [
+                "Scikit-learn",
+                "Numpy",
+                "Pandas"
+            ],
+            "Git Link": "https://github.com/noman024/news-classification-with-naive-bayes.git",
+            "Accuracy": "98.85%"
+        },
+        {
+            "Title": "Diabetic Classification with Support Vector Machine",
+            "Architecture": "Support Vector Machine",
+            "Tech": [
+                "Scikit-learn",
+                "Seaborn",
+                "Matplotlib",
+                "Numpy",
+                "Pandas"
+            ],
+            "Git Link": "https://github.com/noman024/diabetic-classification-with-svm.git",
+            "Accuracy": "80.51%"
+        },
+        {
+            "Title": "Parking Spot Tracking",
+            "Tech": [
+                "Python",
+                "OpenCV",
+                "Torch",
+                "Ultralytics",
+                "YOLOv9",
+                "Numpy",
+                "JSON"
+            ],
+            "Git Link": "https://github.com/noman024/parking-spot-tracking.git"
+        },
+        {
+            "Title": "Web Scraper",
+            "Tech": [
+                "Streamlit",
+                "FastAPI",
+                "JSON",
+                "BeautifulSoup4",
+                "Python Request Module"
+            ],
+            "Git Link": "https://github.com/noman024/web-scraper.git"
+        },
+        {
+            "Title": "Game Addiction Analysis with Neural Network (Deep Learning)",
+            "Architecture": "Neural Network",
+            "Tech": [
+                "Tensorflow",
+                "Keras",
+                "Scikit-learn",
+                "Seaborn",
+                "Matplotlib",
+                "Numpy",
+                "Pandas"
+            ],
+            "Git Link": "https://github.com/noman024/game-addiction-analysis-neuralnet.git"
+        },
+        {
+            "Title": "MNIST Digit Recognition with Neural Network from Scratch (Deep Learning)",
+            "Architecture": "Neural Network",
+            "Tech": [
+                "Python",
+                "Tensorflow",
+                "Keras"
+            ],
+            "Git Link": "Not Shared"
+        }
+    ],
+    "Personal Information": {
+        "Name": "Md. Noman",
+        "Positions": [
+            {
+                "Position": "Developer",
+                "Institution": "Not Specified",
+                "Tenure": "Present"
+            },
+            {
+                "Position": "Data Scientist",
+                "Institution": "Not Specified",
+                "Tenure": "Past"
+            }
+        ],
+        "Academics": [
+            {
+                "Degree": "Master of Science in Computer Science",
+                "Institution": "University of ABC",
+                "Year": "20XX"
+            },
+            {
+                "Degree": "Bachelor of Science in Computer Science",
+                "Institution": "University of XYZ",
+                "Year": "20XX"
+            }
+        ]
+    }
+}

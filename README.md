@@ -1,83 +1,202 @@
 # LLM-based Web Scraping using ScrapeGraphAI
 
-Author: Md Mutasim Billah Abu Noman Akanda, Machine Learning Engineer
+Author: Md Mutasim Billah Abu Noman Akanda, Machine Learning Engineer  
 Date: 12 June 2024
 
 ## Project Description
 
-This project demonstrates how to perform LLM-based web scraping using ScrapeGraphAI. The script `scrap.py` scrapes any kind of data without the need of understading HTML or page layout from specified URLs and saves the results in a JSON file.
+This project demonstrates how to perform Langchain-based web scraping using ScrapeGraphAI. The script `scrap.py` allows users to scrape data from specified URLs using customizable graph pipelines and prompts, and saves the results in a JSON file (`result.json`).
 
 ## Folder Structure
+
 ```
-web-scrap-scrapegraphai
-|------------------------------requirements.txt
-|------------------------------scrap.py
-|------------------------------result.json
+langchain-based-web-scraping-with-scrapegraphai
+├── install.sh
+├── install.bat
+├── requirements.txt
+├── scrap.py
+├── result.json
+├── README.md
 ```
 
+
+## Cloning the Repository
+
+To clone this repository, run the following command in your terminal or command prompt:
+
+```sh
+git clone https://github.com/noman024/Langchain-based-Web-Scraping-with-ScrapeGraphAI.git
+cd Langchain-based-Web-Scraping-with-ScrapeGraphAI
+```
 
 ## Setup
-
-### Prerequisites
-
 - Python 3.9.16
 - ScrapeGraphAI
+- langChain
+- WebKit
 - Ollama
-- Playwright
+- Playwright, and so on.
 
-Please follow the `requirements.txt` for complete prerequisites.
+For all the dependencies, please refer to `requirements.txt` and you won't need to install required dependencies manually. I have already do the automation in `install.sh` for linux and macos user and in `install.bat` for windows user.
 
-### Steps
+## Automated Installation
 
-#### For Windows, WSL, or Linux
+To automate the environment setup and installation of requirements, follow these steps:
 
-1. **Create a virtual environment (For WSL or Linux users only):**
-    ```sh
-    conda create -n scrap python=3.9.16
-    ```
-2. **Activate the virtual environment (For WSL or Linux users only):**
-    ```sh
-    conda activate scrap
-    ```
-3. **Check Python installation:**
-    ```sh
-    python --version
-    ```
-4. **Change the directory where you want to do the task:**
-    ```sh
-    cd "your/directory/path"
-    ```
-5. **Install ScrapeGraphAI:**
-    ```sh
-    pip install scrapgraphai
-    ```
-6. **Install Ollama:**
+### For Unix-like systems (Linux, macOS)
 
-    For WSL or Linux users:
-    ```sh
-    curl -fsSL https://ollama.com/install.sh | sh
-    ```
+```sh
+sh install.sh
+conda activate scrap-noman
+```
 
-    For Windows users:
-    Download and install from [Ollama](https://ollama.com/download/windows).
+### For Windows
 
-7. **Pull necessary models from Ollama:**
-    ```sh
-    ollama pull llama3
-    ollama pull nomic-embed-text
-    ollama pull mistral
-    ```
-8. **Install Playwright:**
-    ```sh
-    playwright install
-    ```
+- No need to create virtual environment
+- Download ollama.exe manually from https://ollama.com/download/windows and then back to the terminal again:
+```
+install.bat
+```
 
-### Running the Script
+### Install Requirements
 
-1. Code your Python script in `scrap.py` for choosing your own graph pipeline.
-2. Run the script for using mine:
-    ```sh
-    python scrap.py
-    ```
-## Output
-The result of the scraping is saved in `result.json`.
+```
+pip install -r requirements.txt
+```
+
+## Customizing and Running the `scrap.py` Script
+
+- Edit `scrap.py` to change the graph pipeline, prompt, and URLs based on your requirements.
+- Run the script
+  ```
+  python scrap.py
+  ```
+
+  ## Output
+
+  The result of the scraping operation will be saved in `result.json` like below:
+
+  ```
+    {
+      "Projects": [
+          {
+              "Title": "Neural Network for Digit Recognition",
+              "Architecture": "Neural Network",
+              "Tech": [
+                  "Tensorflow",
+                  "Keras",
+                  "Scikit-learn",
+                  "Seaborn",
+                  "Matplotlib",
+                  "Numpy",
+                  "Pandas"
+              ],
+              "Git Link": "https://github.com/noman024/MNIST-digit-recognition-with-neuralNet-from-scratch.git",
+              "Accuracy": "99.81%"
+          },
+          {
+              "Title": "News Classification with Naive Bayes Theorem",
+              "Architecture": "Multinomial Naive Bayes classifier",
+              "Tech": [
+                  "Scikit-learn",
+                  "Numpy",
+                  "Pandas"
+              ],
+              "Git Link": "https://github.com/noman024/news-classification-with-naive-bayes.git",
+              "Accuracy": "98.85%"
+          },
+          {
+              "Title": "Diabetic Classification with Support Vector Machine",
+              "Architecture": "Support Vector Machine",
+              "Tech": [
+                  "Scikit-learn",
+                  "Seaborn",
+                  "Matplotlib",
+                  "Numpy",
+                  "Pandas"
+              ],
+              "Git Link": "https://github.com/noman024/diabetic-classification-with-svm.git",
+              "Accuracy": "80.51%"
+          },
+          {
+              "Title": "Parking Spot Tracking",
+              "Tech": [
+                  "Python",
+                  "OpenCV",
+                  "Torch",
+                  "Ultralytics",
+                  "YOLOv9",
+                  "Numpy",
+                  "JSON"
+              ],
+              "Git Link": "https://github.com/noman024/parking-spot-tracking.git"
+          },
+          {
+              "Title": "Web Scraper",
+              "Tech": [
+                  "Streamlit",
+                  "FastAPI",
+                  "JSON",
+                  "BeautifulSoup4",
+                  "Python Request Module"
+              ],
+              "Git Link": "https://github.com/noman024/web-scraper.git"
+          },
+          {
+              "Title": "Game Addiction Analysis with Neural Network (Deep Learning)",
+              "Architecture": "Neural Network",
+              "Tech": [
+                  "Tensorflow",
+                  "Keras",
+                  "Scikit-learn",
+                  "Seaborn",
+                  "Matplotlib",
+                  "Numpy",
+                  "Pandas"
+              ],
+              "Git Link": "https://github.com/noman024/game-addiction-analysis-neuralnet.git"
+          },
+          {
+              "Title": "MNIST Digit Recognition with Neural Network from Scratch (Deep Learning)",
+              "Architecture": "Neural Network",
+              "Tech": [
+                  "Python",
+                  "Tensorflow",
+                  "Keras"
+              ],
+              "Git Link": "Not Shared"
+          }
+      ],
+      "Personal Information": {
+          "Name": "Md. Noman",
+          "Positions": [
+              {
+                  "Position": "Developer",
+                  "Institution": "Not Specified",
+                  "Tenure": "Present"
+              },
+              {
+                  "Position": "Data Scientist",
+                  "Institution": "Not Specified",
+                  "Tenure": "Past"
+              }
+          ],
+          "Academics": [
+              {
+                  "Degree": "Master of Science in Computer Science",
+                  "Institution": "University of ABC",
+                  "Year": "20XX"
+              },
+              {
+                  "Degree": "Bachelor of Science in Computer Science",
+                  "Institution": "University of XYZ",
+                  "Year": "20XX"
+              }
+          ]
+      }
+  }
+  ```
+
+## Feel Free to Contribute
+
+Feel free to contribute to this project by forking it and creating pull requests for any improvements or fixes. If you encounter any issues or have suggestions, please raise them in the Issues section of the repository. Your contributions and feedback are greatly appreciated!
