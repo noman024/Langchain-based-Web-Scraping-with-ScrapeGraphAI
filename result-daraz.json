@@ -1,0 +1,255 @@
+{
+    "Categories": [
+        {
+            "Name": "Mobile Phones",
+            "Subcategories": [
+                "Xiaomi Mobile",
+                "Samsung Mobile",
+                "Huawei Mobile",
+                "Symphony Mobile",
+                "Nokia Mobile",
+                "OnePlus Mobile",
+                "realme Mobile",
+                "Infinix Mobile",
+                "Oppo Mobile",
+                "Vivo Mobile"
+            ]
+        },
+        {
+            "Name": "Mobile Accessories",
+            "Subcategories": [
+                "Earphone",
+                "Phone Cover",
+                "Mobile Charger",
+                "Mobile Battery",
+                "Power Bank",
+                "Memory Card",
+                "Smart Watch"
+            ]
+        },
+        {
+            "Name": "Laptops",
+            "Subcategories": [
+                "HP Laptops",
+                "Dell Laptops",
+                "Asus Laptops",
+                "Lenovo Laptops",
+                "Graphics Card"
+            ]
+        },
+        {
+            "Name": "LED TV",
+            "Subcategories": [
+                "Sony Led TV",
+                "Samsung Led TV",
+                "LG Led TV",
+                "Singer Led TV",
+                "17 Inch LED TV",
+                "19 Inch LED TV",
+                "21 Inch LED TV",
+                "24 Inch LED TV",
+                "32 Inch LED TV",
+                "40 Inch LED TV",
+                "43 Inch LED TV",
+                "50 Inch LED TV",
+                "55 Inch LED TV",
+                "60 Inch LED TV",
+                "75 Inch LED TV"
+            ]
+        },
+        {
+            "Name": "Groceries",
+            "Subcategories": []
+        },
+        {
+            "Name": "Home & Lifestyle",
+            "Subcategories": [
+                "Furniture",
+                "Kitchenware",
+                "Home Decor",
+                "Bedding",
+                "Curtains and Blinds",
+                "Tabletop",
+                "Dining",
+                "Rugs",
+                "Lighting",
+                "Cleaning Supplies",
+                "Iron and Sewing",
+                "Pets"
+            ]
+        },
+        {
+            "Name": "Sports & Outdoors",
+            "Subcategories": [
+                "Fitness Equipment",
+                "Cycling",
+                "Outdoor Gear",
+                "Footwear",
+                "Bags and Accessories",
+                "Swimming",
+                "Yoga and Meditation"
+            ]
+        },
+        {
+            "Name": "_Skincare",
+            "Subcategories": [
+                "Face Mask & Packs",
+                "Face Wash & Cleansers",
+                "Toner & Mists",
+                "Serum & Essence",
+                "Moisturizers and Cream",
+                "Sunscreen and Aftersun",
+                "Lip Balm and Treatment",
+                "Night Cream",
+                "Laikou",
+                "Bioaqua",
+                "Mamaearth",
+                "Simple"
+            ]
+        },
+        {
+            "Name": "_Hair Care",
+            "Subcategories": [
+                "Hair Oils",
+                "Hair Treatments",
+                "Hair Coloring",
+                "Shampoo",
+                "Conditioner",
+                "Hair Care Accessories",
+                "Wow Skin Science",
+                "Sunsilk",
+                "RiBANA",
+                "Parachute",
+                "Tresemme",
+                "Dove"
+            ]
+        },
+        {
+            "Name": "_Makeup",
+            "Subcategories": [
+                "Face",
+                "Eyes",
+                "Lips",
+                "Nails",
+                "Makeup Palettes & Sets",
+                "Makeup Accessories",
+                "Makeup Removers",
+                "M.A.C",
+                "Maybelline",
+                "Makeup Revolution",
+                "Freedom"
+            ]
+        },
+        {
+            "Name": "_Bath & Body",
+            "Subcategories": [
+                "Body & Massage Oils",
+                "Body Scrubs",
+                "Soaps & Body Wash",
+                "Hair Removal",
+                "Talcum Powder",
+                "Hand Care",
+                "Bath & Body Accessories",
+                "Dettol",
+                "The Body Shop",
+                "Godrej NO 1",
+                "Lux",
+                "Mollywaiz"
+            ]
+        },
+        {
+            "Name": "_Personal Care",
+            "Subcategories": [
+                "Toothpaste",
+                "Toothbrush",
+                "Electric Toothbrush",
+                "Dental Floss",
+                "Mouthwash",
+                "Teeth Whitening",
+                "Sanitary Napkins",
+                "Ear Care",
+                "Contact Lens",
+                "Freedom",
+                "Senora",
+                "Whisper"
+            ]
+        },
+        {
+            "Name": "_Men's Care",
+            "Subcategories": [
+                "Shaving & Grooming",
+                "Body and Skin Care",
+                "Hair Care",
+                "Aftershave & Foam",
+                "Men's Perfume",
+                "Men's Body Spray",
+                "Sports Nutrition",
+                "Beardo",
+                "Nivea",
+                "Gillette",
+                "Muuchstac"
+            ]
+        }
+    ],
+    "electronics": [
+        {
+            "category": "Smartphones",
+            "subcategories": [
+                "iPhone",
+                "Samsung Galaxy",
+                "OnePlus",
+                "Xiaomi",
+                "Oppo"
+            ]
+        },
+        {
+            "category": "Tablets",
+            "subcategories": [
+                "Apple iPad",
+                "Samsung Galaxy Tab",
+                "Amazon Fire HD",
+                "Microsoft Surface"
+            ]
+        },
+        {
+            "category": "Laptops",
+            "subcategories": [
+                "MacBook",
+                "Dell",
+                "HP",
+                "Lenovo",
+                "Acer",
+                "Asus"
+            ]
+        },
+        {
+            "category": "TVs and Monitors",
+            "subcategories": [
+                "LED TV",
+                "4K UHD TV",
+                "OLED TV",
+                "Smart TV",
+                "Gaming Monitor"
+            ]
+        },
+        {
+            "category": "Home Appliances",
+            "subcategories": [
+                "Refrigerator",
+                "Washing Machine",
+                "Dryer",
+                "Microwave Oven",
+                "Air Conditioner"
+            ]
+        },
+        {
+            "category": "Cameras",
+            "subcategories": [
+                "DSLR Cameras",
+                "Mirrorless Cameras",
+                "Action Cameras",
+                "Point and Shoot Cameras"
+            ]
+        }
+    ]
+}

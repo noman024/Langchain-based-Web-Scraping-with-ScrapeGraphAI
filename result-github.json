@@ -1,0 +1,38 @@
+{
+    "Projects": [
+        {
+            "Name": "Noman",
+            "Description": "Teaching Assistant at University XYZ, working with students on courses related to Computer Science and Machine Learning.",
+            "Start Date": "January 2021",
+            "End Date": "Present"
+        },
+        {
+            "Name": "Machine Learning Projects",
+            "Description": "Developing various machine learning projects using TensorFlow, Keras, Scikit-learn and other libraries.",
+            "Start Date": "January 2018",
+            "End Date": "Present"
+        },
+        {
+            "Name": "News Classification with Naive Bayes Theorem",
+            "Description": "Developed a news classification model using the Naive Bayes Theorem.",
+            "Accuracy": "98.85%"
+        },
+        {
+            "Name": "Diabetic Classification with Support Vector Machine",
+            "Description": "Developed a diabetic classification model using the Support Vector Machine.",
+            "Accuracy": "80.51%"
+        },
+        {
+            "Name": "Neural Network for Digit Classification",
+            "Description": "Developed a neural network for digit classification achieving 99.81% accuracy.",
+            "Accuracy": "99.81%"
+        }
+    ],
+    "Creator": {
+        "Name": "Md. Mutasim Billah Abu Noman Akanda",
+        "Contact Email": "mutasim.billah024@gmail.com",
+        "LinkedIn Profile": "https://www.linkedin.com/in/noman024/",
+        "GitHub Profile": "https://github.com/noman024",
+        "Personal Website": "https://noman024.github.io/#research-interests"
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "Projects": [
+        {
+            "Title": "Digit Recognition using Neural Network",
+            "Architecture": "Neural Network",
+            "Tech": [
+                "Tensorflow",
+                "Keras",
+                "Scikit-learn",
+                "Seaborn",
+                "Matplotlib",
+                "Numpy",
+                "Pandas"
+            ],
+            "GitLink": "https://github.com/noman024/MNIST-digit-recognition-with-neuralNet-from-scratch.git",
+            "Accuracy": "99.81%"
+        },
+        {
+            "Title": "News Classification using Naive Bayes Theorem",
+            "Architecture": "Multinomial Naive Bayes classifier",
+            "Tech": [
+                "Scikit-learn",
+                "Numpy",
+                "Pandas"
+            ],
+            "GitLink": "https://github.com/noman024/news-classification-with-naive-bayes.git",
+            "Accuracy": "89%"
+        },
+        {
+            "Title": "MNIST Digit Recognition with Neural Network from Scratch (Deep Learning)",
+            "Architecture": "Neural Network",
+            "Tech": [
+                "Tensorflow",
+                "Keras"
+            ],
+            "GitLink": "https://github.com/noman024/MNIST-digit-recognition-from-scratch.git",
+            "Accuracy": null
+        },
+        {
+            "Title": "Game Addiction Analysis with Neural Network (Deep Learning)",
+            "Architecture": "Neural Network",
+            "Tech": [
+                "Tensorflow",
+                "Keras",
+                "Scikit-learn",
+                "Seaborn",
+                "Matplotlib",
+                "Numpy",
+                "Pandas"
+            ],
+            "GitLink": "https://github.com/noman024/game-addiction-analysis-neuralnet.git"
+        },
+        {
+            "Title": "Parking Spot Tracking",
+            "Architecture": null,
+            "Tech": [
+                "Python",
+                "OpenCV",
+                "Torch",
+                "Ultralytics",
+                "YOLOv9",
+                "Numpy",
+                "JSON"
+            ],
+            "GitLink": "https://github.com/noman024/parking-spot-tracking.git"
+        },
+        {
+            "Title": "Web Scraper",
+            "Architecture": null,
+            "Tech": [
+                "Streamlit",
+                "FastAPI",
+                "JSON",
+                "BeautifulSoup4",
+                "Python Request Module"
+            ],
+            "GitLink": "https://github.com/noman024/web-scraper.git"
+        }
+    ]
+}
