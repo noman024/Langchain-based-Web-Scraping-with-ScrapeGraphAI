@@ -1,8 +1,8 @@
 {
-    "Projects": [
+    "Machine_Learning_Projects": [
         {
-            "Title": "Neural Network for Digit Recognition",
-            "Architecture": "Neural Network",
+            "Title": "Game Addiction Analysis - Neural Network",
+            "Accuracy": "80.70%",
             "Tech": [
                 "Tensorflow",
                 "Keras",
@@ -12,23 +12,21 @@
                 "Numpy",
                 "Pandas"
             ],
-            "Git Link": "https://github.com/noman024/MNIST-digit-recognition-with-neuralNet-from-scratch.git",
-            "Accuracy": "99.81%"
+            "GitHub_Link": "https://github.com/noman024/game-addiction-analysis-neuralnet.git"
         },
         {
-            "Title": "News Classification with Naive Bayes Theorem",
-            "Architecture": "Multinomial Naive Bayes classifier",
+            "Title": "News Classification - Multinomial Naive Bayes",
+            "Accuracy": "98.85%",
             "Tech": [
                 "Scikit-learn",
                 "Numpy",
                 "Pandas"
             ],
-            "Git Link": "https://github.com/noman024/news-classification-with-naive-bayes.git",
-            "Accuracy": "98.85%"
+            "GitHub_Link": "https://github.com/noman024/news-classification-with-naive-bayes.git"
         },
         {
-            "Title": "Diabetic Classification with Support Vector Machine",
-            "Architecture": "Support Vector Machine",
+            "Title": "Diabetic Classification - Support Vector Machine",
+            "Accuracy": "80.51%",
             "Tech": [
                 "Scikit-learn",
                 "Seaborn",
@@ -36,83 +34,8 @@
                 "Numpy",
                 "Pandas"
             ],
-            "Git Link": "https://github.com/noman024/diabetic-classification-with-svm.git",
-            "Accuracy": "80.51%"
-        },
-        {
-            "Title": "Parking Spot Tracking",
-            "Tech": [
-                "Python",
-                "OpenCV",
-                "Torch",
-                "Ultralytics",
-                "YOLOv9",
-                "Numpy",
-                "JSON"
-            ],
-            "Git Link": "https://github.com/noman024/parking-spot-tracking.git"
-        },
-        {
-            "Title": "Web Scraper",
-            "Tech": [
-                "Streamlit",
-                "FastAPI",
-                "JSON",
-                "BeautifulSoup4",
-                "Python Request Module"
-            ],
-            "Git Link": "https://github.com/noman024/web-scraper.git"
-        },
-        {
-            "Title": "Game Addiction Analysis with Neural Network (Deep Learning)",
-            "Architecture": "Neural Network",
-            "Tech": [
-                "Tensorflow",
-                "Keras",
-                "Scikit-learn",
-                "Seaborn",
-                "Matplotlib",
-                "Numpy",
-                "Pandas"
-            ],
-            "Git Link": "https://github.com/noman024/game-addiction-analysis-neuralnet.git"
-        },
-        {
-            "Title": "MNIST Digit Recognition with Neural Network from Scratch (Deep Learning)",
-            "Architecture": "Neural Network",
-            "Tech": [
-                "Python",
-                "Tensorflow",
-                "Keras"
-            ],
-            "Git Link": "Not Shared"
+            "GitHub_Link": "https://github.com/noman024/diabetic-classification-with-svm.git"
         }
     ],
-    "Personal Information": {
-        "Name": "Md. Noman",
-        "Positions": [
-            {
-                "Position": "Developer",
-                "Institution": "Not Specified",
-                "Tenure": "Present"
-            },
-            {
-                "Position": "Data Scientist",
-                "Institution": "Not Specified",
-                "Tenure": "Past"
-            }
-        ],
-        "Academics": [
-            {
-                "Degree": "Master of Science in Computer Science",
-                "Institution": "University of ABC",
-                "Year": "20XX"
-            },
-            {
-                "Degree": "Bachelor of Science in Computer Science",
-                "Institution": "University of XYZ",
-                "Year": "20XX"
-            }
-        ]
-    }
+    "Feedback": "The candidate has demonstrated a good understanding and application of various machine learning techniques such as Neural Network, Multinomial Naive Bayes, and Support Vector Machine. The accuracy rates are decent across all projects which indicates a fair level of practical implementation skill. However, it would be beneficial for the candidate to gain more experience with other advanced machine learning algorithms to become a stronger fit for a Machine Learning Engineer role."
 }

@@ -1,0 +1,46 @@
+{
+    "title": "Women's Fashion & Accessories on Daraz",
+    "url": "https://www.daraz.com.bd",
+    "subcategories": [
+        {
+            "title": "Women's Clothing",
+            "url": "https://www.daraz.com.bd/womens-clothing/?service=OS"
+        },
+        {
+            "title": "Women's Lingerie & Sleepwear (Price: 499-)",
+            "url": "https://www.daraz.com.bd/womens-lingerie-sleepwear/?&price;=499-&service;=OS&from;=filter"
+        },
+        {
+            "title": "Women's Shoes (Price: 500-)",
+            "url": "https://www.daraz.com.bd/womens-shoes/?price=500-&from;=filter"
+        },
+        {
+            "title": "Women's Bags (Price: 699-)",
+            "url": "https://www.daraz.com.bd/womens-bags/?&price;=699-&service;=OS&from;=filter"
+        },
+        {
+            "title": "Women's Watches (Price: 499-)",
+            "url": "https://www.daraz.com.bd/womens-watches/?&price;=499-&service;=OS&from;=filter"
+        },
+        {
+            "title": "Skincare & Beauty",
+            "url": "https://www.daraz.com.bd/skincare-beauty/?service=OS&from;=filter"
+        },
+        {
+            "title": "Hair Care & Beauty",
+            "url": "https://www.daraz.com.bd/hair-care-beauty/?service=OS&from;=filter"
+        },
+        {
+            "title": "Women's Make-up",
+            "url": "https://www.daraz.com.bd/womens-make-up/?service=OS&from;=filter"
+        },
+        {
+            "title": "Fragrances",
+            "url": "https://www.daraz.com.bd/fragrances/?service=OS&from;=filter"
+        },
+        {
+            "title": "Health & Beauty Tools",
+            "url": "https://www.daraz.com.bd/health-beauty-tools/?service=OS&from;=filter"
+        }
+    ]
+}

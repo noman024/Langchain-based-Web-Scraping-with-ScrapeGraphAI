@@ -1,3 +1,8 @@
+'''
+Author: Md Mutasim Billah Abu Noman Akanda, Machine Learning Engineer  
+Date: 12 June 2024
+'''
+
 from scrapegraphai.graphs import SmartScraperGraph, SmartScraperMultiGraph
 from scrapegraphai.utils import prettify_exec_info
 import json
@@ -24,9 +29,9 @@ graph_config = {
 # ************************************************
 
 smart_scraper_graph = SmartScraperGraph(
-   prompt="List me the projects name with other necessary information",
+   prompt="Scrap the information about the product name, price and description",
    # also accepts a string with the already downloaded HTML code
-   source="https://noman024.github.io/",
+   source="https://www.daraz.com.bd/products/bogesi-i132914772-s1054216188.html?spm=a2a0e.home.flashSale.3.735212f7UWKDNp",
    # source="https://bstock.com/supplystore/auctions/cell-phones/samsung-galaxy-s23-ultra/id/619076/",
    # source="https://www.daraz.com.bd/featurephones/?spm=a2a0e.home.cate_6.2.735212f7idOF4z",
    config=graph_config
@@ -35,7 +40,7 @@ smart_scraper_graph = SmartScraperGraph(
 result = smart_scraper_graph.run()
 
 # Define the file path
-file_path = "result.json"
+file_path = "test.json"
 
 # Dump the JSON data to the file
 try:
