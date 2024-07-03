@@ -1,0 +1,108 @@
+{
+    "title": "Best Unlocked 5G Smartphones",
+    "description": "Explore our collection of the best unlocked 5G smartphones available. Compare top brands like OnePlus, Samsung, and Google across key features such as screen size, battery capacity, connectivity, display type, shooting modes, front camera resolution, and more.",
+    "products_chunk": [
+        {
+            "title": "OnePlus Nord N10 5G (Adafruit)",
+            "url": "https://www.amazon.com/OnePlus-Nord-N10-5G-Unlocked-Midnight-Blue/dp/B08KFJ9X26?th=1",
+            "rating": "4.3 out of 5 stars",
+            "reviews": "800",
+            "price": "$399.99",
+            "carrier": [
+                "T-Mobile",
+                "Verizon Wireless",
+                "AT&T; Wireless",
+                "TracFone Wireless",
+                "Sprint",
+                "Simple Mobile",
+                "Straight Talk",
+                "Cricket Wireless",
+                "Boost Mobile",
+                "Virgin Mobile",
+                "Total Wireless",
+                "Net10 Wireless",
+                "Ting",
+                "UScellular",
+                "Consumer Cellular",
+                "H2O Wireless"
+            ],
+            "model_year": "2020",
+            "sustainability_features": [
+                "Energy efficiency"
+            ],
+            "certification": "EPEAT",
+            "screen_size": "6.49 inches",
+            "battery_capacity": "4300mAh",
+            "display_type": "AMOLED",
+            "camera_resolution": [
+                "16MP"
+            ],
+            "shooting_modes": [
+                "Automatic",
+                "Portrait",
+                "Night Mode"
+            ],
+            "front_camera_resolution": "16MP"
+        },
+        {
+            "title": "SAMSUNG Galaxy A35 5G (US Version)",
+            "url": "https://www.amazon.com/Samsung-Galaxy-A35-Unlocked-Smartphone/dp/B09YQ827K2?th=1",
+            "rating": "4.4 out of 5 stars",
+            "reviews": "874",
+            "price": "$329.99",
+            "carrier": [
+                "T-Mobile",
+                "Verizon Wireless",
+                "AT&T; Wireless"
+            ],
+            "model_year": "2023",
+            "sustainability_features": [
+                "Energy efficiency"
+            ],
+            "certification": "EPEAT",
+            "screen_size": "6.5 inches",
+            "battery_capacity": "5000mAh",
+            "display_type": "Super AMOLED",
+            "camera_resolution": [
+                "24MP"
+            ],
+            "shooting_modes": [
+                "Automatic",
+                "Portrait",
+                "Night Mode"
+            ],
+            "front_camera_resolution": "13MP"
+        },
+        {
+            "title": "Google Pixel 5a (Unlocked)",
+            "url": "https://www.amazon.com/Pixel-5A-Unlocked-Smartphone-Black/dp/B09QJYJ6D4?th=1",
+            "rating": "4.5 out of 5 stars",
+            "reviews": "837",
+            "price": "$499.99",
+            "carrier": [
+                "T-Mobile",
+                "Verizon Wireless",
+                "AT&T; Wireless"
+            ],
+            "model_year": "2021",
+            "sustainability_features": [],
+            "certification": "Climate Pledge Friendly",
+            "screen_size": "6.34 inches",
+            "battery_capacity": "3680mAh",
+            "display_type": "OLED",
+            "camera_resolution": [
+                "12.2MP"
+            ],
+            "shooting_modes": [
+                "Aperture Priority",
+                "Automatic",
+                "Custom",
+                "High Dynamic Range",
+                "Macro",
+                "Night Mode",
+                "Portrait"
+            ],
+            "front_camera_resolution": "8MP"
+        }
+    ]
+}

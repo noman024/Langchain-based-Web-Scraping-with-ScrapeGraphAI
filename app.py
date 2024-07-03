@@ -3,7 +3,7 @@
 import streamlit as st
 import requests
 
-st.title('Web Scraping with ScrapeGraphAI')
+st.title('LangChain-based Web Scraping with ScrapeGraphAI')
 
 # User input fields
 prompt = st.text_input('Enter your prompt:')
