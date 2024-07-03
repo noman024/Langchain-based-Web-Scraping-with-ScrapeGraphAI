@@ -13,6 +13,16 @@ class ScrapeRequest(BaseModel):
 
 @app.post("/scrape/")
 def scrape_data(request: ScrapeRequest):
+    """
+    A function that scrapes data based on the input prompt and source URL.
+    
+    Parameters:
+        request (ScrapeRequest): An object containing the prompt and source URL for scraping.
+        
+    Returns:
+        dict: The JSON result obtained from the scraping operation.
+        If an error occurs, returns a dictionary with the error message.
+    """
     # Prepare command to run scrap.py with inputs
     cmd = ['python', 'scrap.py', '--prompt', request.prompt, '--source', request.source]
 

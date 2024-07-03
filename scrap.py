@@ -59,9 +59,26 @@ Date: 12 June 2024
 '''
 
 import argparse
-from scrapegraphai.graphs import SmartScraperGraph, SmartScraperMultiGraph
-from scrapegraphai.utils import prettify_exec_info
+from scrapegraphai.graphs import SmartScraperGraph
+# from scrapegraphai.utils import prettify_exec_info
 import json
+import os
+from datetime import datetime
+import re
+
+# Function to create a safe filename
+def create_safe_filename(prompt, url):
+    # Extract a meaningful part of the URL
+    url_part = re.sub(r'https?://(www\.)?', '', url).split('/')[0]
+    
+    # Clean and shorten the prompt for the filename
+    prompt_part = re.sub(r'\W+', '_', prompt)[:50]
+    
+    # Generate a timestamp
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    
+    # Combine parts to create the filename
+    return f"{url_part}_{prompt_part}_{timestamp}.json"
 
 # Command-line argument parsing
 parser = argparse.ArgumentParser(description='Run the web scraper with given prompt and source URL.')
@@ -99,13 +116,17 @@ smart_scraper_graph = SmartScraperGraph(
 
 result = smart_scraper_graph.run()
 
+# Generate a unique file name based on the URL and prompt
+file_name = create_safe_filename(args.prompt, args.source)
+
 # Define the file path
-file_path = "test.json"
+file_path = os.path.join(os.getcwd(), file_name)
 
 # Dump the JSON data to the file
 try:
     with open(file_path, 'w') as file:
         json.dump(result, file, indent=4)
+    print(f'Result successfully saved to {file_path}')
 except (IOError, OSError) as e:
     print(f'Error occurred while writing to the file: {e}')
 
