@@ -1,6 +1,6 @@
 # main.py
 
-from fastapi import FastAPI, Query
+from fastapi import FastAPI
 from pydantic import BaseModel
 from subprocess import run, PIPE
 import json
@@ -14,9 +14,7 @@ class ScrapeRequest(BaseModel):
 @app.post("/scrape/")
 def scrape_data(request: ScrapeRequest):
     # Prepare command to run scrap.py with inputs
-    cmd = ['python', 'scrap.py']
-    cmd.extend(['--prompt', request.prompt])
-    cmd.extend(['--source', request.source])
+    cmd = ['python', 'scrap.py', '--prompt', request.prompt, '--source', request.source]
 
     # Run the command and capture output
     result = run(cmd, stdout=PIPE, stderr=PIPE, text=True)
