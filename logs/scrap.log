@@ -1,0 +1,16 @@
+2024-07-04 03:44:49,510 - INFO - Starting scrape with...
+prompt: List me the mobile names and prices
+source: https://www.amazon.in/s?bbn=1389401031&rh=n%3A976419031%2Cn%3A1389401031%2Cn%3A1389432031&dc&qid=1720042106&rnid=1389401031&ref=lp_1389401031_nr_n_3
+2024-07-04 03:44:49,552 - INFO - Starting scraping...
+2024-07-04 03:44:52,926 - INFO - Content scraped
+2024-07-04 03:45:11,271 - INFO - Loading faiss with AVX512 support.
+2024-07-04 03:45:11,310 - INFO - Successfully loaded faiss with AVX512 support.
+2024-07-04 03:46:07,134 - INFO - Starting scrape with...
+prompt: List me the mobile names and prices
+source: https://bikroy.com/bn/ads/dhaka/mobile-phones
+2024-07-04 03:46:07,192 - INFO - Starting scraping...
+2024-07-04 03:46:29,792 - INFO - Content scraped
+2024-07-04 04:02:34,769 - INFO - Result successfully saved to /home/noman/26-Langchain-based-Web-Scraping-with-ScrapeGraphAI/results/amazonin_List_me_the_mobile_names_and_prices_20240704_040234.json
+2024-07-04 04:03:18,655 - INFO - Loading faiss with AVX512 support.
+2024-07-04 04:03:18,711 - INFO - Successfully loaded faiss with AVX512 support.
+2024-07-04 04:17:22,861 - INFO - Result successfully saved to /home/noman/26-Langchain-based-Web-Scraping-with-ScrapeGraphAI/results/bikroycom_List_me_the_mobile_names_and_prices_20240704_041722.json

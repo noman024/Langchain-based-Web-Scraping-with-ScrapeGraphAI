@@ -1,0 +1,8 @@
+ 2024-07-04 03:44:46,001 - INFO - Scraping requested with...
+prompt: List me the mobile names and prices
+source: https://www.amazon.in/s?bbn=1389401031&rh=n%3A976419031%2Cn%3A1389401031%2Cn%3A1389432031&dc&qid=1720042106&rnid=1389401031&ref=lp_1389401031_nr_n_3
+2024-07-04 03:46:01,768 - INFO - Scraping requested with...
+prompt: List me the mobile names and prices
+source: https://bikroy.com/bn/ads/dhaka/mobile-phones
+2024-07-04 04:02:35,592 - INFO - Scraping successful!
+2024-07-04 04:17:23,603 - INFO - Scraping successful!

@@ -5,18 +5,27 @@ Date: 12 June 2024
 
 ## Project Description
 
-This project demonstrates how to perform Langchain-based web scraping using ScrapeGraphAI. The script `scrap.py` allows users to scrape data from specified URLs using customizable graph pipelines and prompts, and saves the results in a JSON file (`result.json`).
+This project demonstrates how to perform Langchain-based web scraping using ScrapeGraphAI, integrating FastAPI for backend processing, and Streamlit for the frontend interface. The scraped results are saved in a structured format, and all logs are maintained for debugging and tracking purposes. Key features include:
+
+- User input validation to ensure the prompt and URL are correctly provided.
+- A progress bar that displays the scraping progress until the operation is complete.
+- Robust error handling mechanisms to manage and report various errors effectively.
 
 ## Folder Structure
 
 ```
 langchain-based-web-scraping-with-scrapegraphai
-├── install.sh
-├── install.bat
-├── requirements.txt
+├── app.py
+├── main.py
 ├── scrap.py
-├── result.json
+├── logs/
+│ ├── app.log
+│ ├── main.log
+│ └── scrap.log
+├── results/
+│ └── <scraped_results>.json
 ├── README.md
+└── requirements.txt
 ```
 
 
@@ -64,138 +73,156 @@ install.bat
 pip install -r requirements.txt
 ```
 
-## Customizing and Running the `scrap.py` Script
+## Usage
 
-- Edit `scrap.py` to change the graph pipeline, prompt, and URLs based on your requirements.
-- Run the script
-  ```
-  python scrap.py
-  ```
+### Running the Backend Server
 
-  ## Output
+The backend is built using FastAPI. To start the server, run:
 
-  The result of the scraping operation will be saved in `result.json` like below:
+```
+uvicorn main:app --reload
+```
 
-  ```
-    {
-      "Projects": [
-          {
-              "Title": "Neural Network for Digit Recognition",
-              "Architecture": "Neural Network",
-              "Tech": [
-                  "Tensorflow",
-                  "Keras",
-                  "Scikit-learn",
-                  "Seaborn",
-                  "Matplotlib",
-                  "Numpy",
-                  "Pandas"
-              ],
-              "Git Link": "https://github.com/noman024/MNIST-digit-recognition-with-neuralNet-from-scratch.git",
-              "Accuracy": "99.81%"
-          },
-          {
-              "Title": "News Classification with Naive Bayes Theorem",
-              "Architecture": "Multinomial Naive Bayes classifier",
-              "Tech": [
-                  "Scikit-learn",
-                  "Numpy",
-                  "Pandas"
-              ],
-              "Git Link": "https://github.com/noman024/news-classification-with-naive-bayes.git",
-              "Accuracy": "98.85%"
-          },
-          {
-              "Title": "Diabetic Classification with Support Vector Machine",
-              "Architecture": "Support Vector Machine",
-              "Tech": [
-                  "Scikit-learn",
-                  "Seaborn",
-                  "Matplotlib",
-                  "Numpy",
-                  "Pandas"
-              ],
-              "Git Link": "https://github.com/noman024/diabetic-classification-with-svm.git",
-              "Accuracy": "80.51%"
-          },
-          {
-              "Title": "Parking Spot Tracking",
-              "Tech": [
-                  "Python",
-                  "OpenCV",
-                  "Torch",
-                  "Ultralytics",
-                  "YOLOv9",
-                  "Numpy",
-                  "JSON"
-              ],
-              "Git Link": "https://github.com/noman024/parking-spot-tracking.git"
-          },
-          {
-              "Title": "Web Scraper",
-              "Tech": [
-                  "Streamlit",
-                  "FastAPI",
-                  "JSON",
-                  "BeautifulSoup4",
-                  "Python Request Module"
-              ],
-              "Git Link": "https://github.com/noman024/web-scraper.git"
-          },
-          {
-              "Title": "Game Addiction Analysis with Neural Network (Deep Learning)",
-              "Architecture": "Neural Network",
-              "Tech": [
-                  "Tensorflow",
-                  "Keras",
-                  "Scikit-learn",
-                  "Seaborn",
-                  "Matplotlib",
-                  "Numpy",
-                  "Pandas"
-              ],
-              "Git Link": "https://github.com/noman024/game-addiction-analysis-neuralnet.git"
-          },
-          {
-              "Title": "MNIST Digit Recognition with Neural Network from Scratch (Deep Learning)",
-              "Architecture": "Neural Network",
-              "Tech": [
-                  "Python",
-                  "Tensorflow",
-                  "Keras"
-              ],
-              "Git Link": "Not Shared"
-          }
-      ],
-      "Personal Information": {
-          "Name": "Md. Noman",
-          "Positions": [
-              {
-                  "Position": "Developer",
-                  "Institution": "Not Specified",
-                  "Tenure": "Present"
-              },
-              {
-                  "Position": "Data Scientist",
-                  "Institution": "Not Specified",
-                  "Tenure": "Past"
-              }
-          ],
-          "Academics": [
-              {
-                  "Degree": "Master of Science in Computer Science",
-                  "Institution": "University of ABC",
-                  "Year": "20XX"
-              },
-              {
-                  "Degree": "Bachelor of Science in Computer Science",
-                  "Institution": "University of XYZ",
-                  "Year": "20XX"
-              }
-          ]
-      }
+### Running the Frontend Interface
+
+The frontend is built using Streamlit. To start the Streamlit app, run:
+
+```
+streamlit run app.py
+```
+
+### Interface
+
+After running both the FastAPI backend and Streamlit frontend, you need to go to [http://localhost:8501/](http://localhost:8501/) and see a user interface like below:
+
+![Interface Screenshot](assets/streamlit-interface.png)
+
+### Log Files
+
+All logs are stored in the `logs` directory:
+
+- `scrap.log`: Logs for the scraping script.
+- `app.log`: Logs for the Streamlit app.
+- `main.log`: Logs for the FastAPI server.
+
+### Results
+Scraped results are stored in the `results` directory, with filenames generated based on the URL and prompt. The filenames structure is `shortenedScrapedURL_Prompt_YYYYMMDD_hhmmss` where:
+
+- `Y` stands for `Year`
+- `M` stands for `Month`
+- `D` stands for `Date`
+- `h` stands for `hour`
+- `m` stands for `minutes`
+- `s` stands for `seconds`
+
+## API Endpoints
+
+`/scrape/`
+
+_Method_: Post
+
+_Request Body_: 
+```
+{
+  "prompt": "your prompt",
+  "source": "http://example.com"
+}
+```
+
+_Response_: 200 OK/Succees
+
+```
+{
+  "result": {
+    ...scraped_data...
   }
-  ```
+}
+```
+
+## Configuration
+
+You can configure the scraper and other settings by modifying the corresponding sections in the scripts.
+
+### Example Configuration in `scrap.py`
+
+```
+graph_config = {
+    "llm": {
+        "model": "ollama/mistral",
+        "temperature": 1,
+        "format": "json",
+        "model_tokens": 2000,
+        "base_url": "http://127.0.0.1:11434",
+    },
+    "embeddings": {
+        "model": "ollama/nomic-embed-text",
+        "temperature": 0,
+        "base_url": "http://127.0.0.1:11434",
+    }
+}
+
+```
+ 
+## Example Input/Output
+
+### Input
+
+_Prompt_: List me the product name and price
+
+_URL_: https://www.daraz.com.bd/mens-wallets/
+
+### Output
+
+```
+{
+    "ProductInformation": [
+        {
+            "Name": "Leather Wallet for Men-Black ( CARTELO)",
+            "Price": 75
+        },
+        {
+            "Name": "Multi Slot Card Holder Vintage Small Wallet Women Men Business Bank Credit Card Bag Male Coin Pouch Solid Leather Zipper Wallet",
+            "Price": 153
+        },
+        {
+            "Name": "Best quality Stylish Zipper Leather wallet For Men",
+            "Price": 169
+        },
+        {
+            "Name": "Fashionable Wallet For Men - Wallet",
+            "Price": 80
+        },
+        {
+            "Name": "Wallet Men Wallets Fashion Long Wallet PU Leather Long Wallet Business Wallets Men's Anti-theft Soft Wallet Splicing Two Fold Ultra-thin Long Wallet Travel Purses Coin Pouch ID Credit Cards Holders",
+            "Price": 178
+        },
+        {
+            "Name": "Mobile Cover and Card Holder Long Wallet - Black",
+            "Price": 69
+        },
+        {
+            "Name": "Black Leather Vipar Long Lusting Long Wallet For Men - Wallet - Wallet",
+            "Price": 133
+        },
+        {
+            "Name": "Artificial Lether Wallet for Men",
+            "Price": 88
+        },
+        {
+            "Name": "Canvas Men Wallet Black/blue/gray Card Holder Wallet Male Money Bag ID/photo/bank Holder Short Purse Credit Card Case Bag",
+            "Price": 320
+        },
+        {
+            "Name": "Jeep Black 100% Leather wallet For Man - Wallet For Men - Many Beg",
+            "Price": 359
+        },
+        {
+            "Name": "Round Zipper Stylish High quality Artificial Leather wallet For Men - Wallet - Wallet For Men",
+            "Price": 178
+        }
+    ]
+} 
+```
 
 ## Feel Free to Contribute
 

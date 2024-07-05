@@ -1,0 +1,63 @@
+{
+    "Mobile_Phones": [
+        {
+            "name": "Benco S1",
+            "price": null,
+            "brand": "Benco"
+        },
+        {
+            "name": "Walton NexG N8",
+            "price": null,
+            "brand": "Walton"
+        },
+        {
+            "name": "Benco S1 Pro",
+            "price": null,
+            "brand": "Benco"
+        },
+        {
+            "name": "Walton NexG N9",
+            "price": null,
+            "brand": "Walton"
+        },
+        {
+            "name": "Tecno Camon 20 Pro",
+            "price": null,
+            "brand": "Tecno"
+        },
+        {
+            "name": "Motorola Moto G84 5G",
+            "price": null,
+            "brand": "Motorola"
+        },
+        {
+            "name": "Vivo Y27S",
+            "price": null,
+            "brand": "Vivo"
+        },
+        {
+            "name": "Realme C51",
+            "price": null,
+            "brand": "Realme"
+        },
+        {
+            "name": "Tecno Spark 20Pro",
+            "price": null,
+            "brand": "Tecno"
+        },
+        {
+            "name": "Realme C30s",
+            "price": null,
+            "brand": "Realme"
+        }
+    ],
+    "Brands": [
+        "Benco",
+        "Vivo",
+        "Realme",
+        "Tecno",
+        "Walton",
+        "Infinix",
+        "iPhone"
+    ]
+}

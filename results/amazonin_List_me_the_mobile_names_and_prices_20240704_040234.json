@@ -1,0 +1,110 @@
+{
+    "title": "Top Phone Deals of the Day (5 July)",
+    "description": "Check out these great deals on phones available for tomorrow's delivery!",
+    "image_url": "",
+    "products": [
+        {
+            "name": "realme NARZO N65 5G (Moonlight Silver 8GB RAM, 128GB Storage)",
+            "rating": "Not Yet Rated",
+            "price": 14998,
+            "mrp": 16999,
+            "discount": 12.5,
+            "coupon_applied_at_checkout": false,
+            "delivery_date": "Tomorrow, 5 July",
+            "shipping": "FREE Delivery by Amazon"
+        },
+        {
+            "name": "iQOO Z9x 5G (Storm Grey, 6GB RAM, 128GB Storage)",
+            "rating": "4.1 out of 5 stars",
+            "price_range": [
+                {
+                    "minimum_price": 14499,
+                    "maximum_price": 14499
+                },
+                {
+                    "minimum_price": 18999,
+                    "maximum_price": null
+                }
+            ],
+            "features": [
+                "Snapdragon 6 Gen 1 with 560K+ AnTuTu Score",
+                "6000 mAh Battery with 7.99mm Slim design",
+                "44W FlashCharge"
+            ],
+            "coupon_applied_at_checkout": false,
+            "delivery_date": "Tomorrow, 5 July",
+            "shipping": "FREE Delivery by Amazon"
+        },
+        {
+            "name": "realme NARZO 70x 5G (Ice Blue, 8GB RAM,128GB Storage)",
+            "rating": "4.0 out of 5 stars",
+            "price_range": [
+                {
+                    "minimum_price": 12999,
+                    "maximum_price": 12999
+                },
+                {
+                    "minimum_price": 17999,
+                    "maximum_price": null
+                }
+            ],
+            "features": [
+                "120Hz Ultra Smooth Display",
+                "Dimensity 6100+ 6nm 5G",
+                "50MP AI Camera",
+                "45W Charger in The Box"
+            ],
+            "coupon_applied_at_checkout": false,
+            "delivery_date": "Tomorrow, 5 July",
+            "shipping": "FREE Delivery by Amazon"
+        },
+        {
+            "name": "Nokia G42 5G Powered by Snapdragon\u00ae 480 Plus 5G",
+            "rating": "3.9 out of 5 stars",
+            "price_range": [
+                {
+                    "minimum_price": 1,
+                    "maximum_price": null
+                },
+                {
+                    "minimum_price": 1199,
+                    "maximum_price": 1549
+                }
+            ],
+            "features": [
+                "Powered by Snapdragon\u00ae 480 Plus 5G",
+                "50MP Triple Rear AI Camera",
+                "6GB RAM (4GB RAM + 2GB Virtual RAM)",
+                "128GB Storage",
+                "3-day Battery Life",
+                "2 Years of Android Upgrades"
+            ],
+            "coupon_applied_at_checkout": false,
+            "delivery_date": "Tomorrow, 5 July",
+            "shipping": "FREE Delivery by Amazon"
+        },
+        {
+            "name": "Motorola G64 5G (Ice Lilac, 8GB RAM, 128GB Storage)",
+            "rating": "3.4 out of 5 stars",
+            "price_range": [
+                {
+                    "minimum_price": 999,
+                    "maximum_price": null
+                },
+                {
+                    "minimum_price": 999,
+                    "maximum_price": null
+                }
+            ],
+            "features": [
+                "Snapdragon 6 Gen 1 with 560K+ AnTuTu Score",
+                "6000 mAh Battery with 7.99mm Slim design",
+                "44W FlashCharge"
+            ],
+            "coupon_applied_at_checkout": false,
+            "delivery_date": "Tomorrow, 5 July",
+            "shipping": "FREE Delivery by Amazon"
+        }
+    ],
+    "affiliate_disclaimer": "Prices are subject to change at any time and may vary by location or device. Products sold by Marketplace sellers are governed by the seller's particular policies."
+}

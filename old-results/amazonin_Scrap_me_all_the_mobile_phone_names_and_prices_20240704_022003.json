@@ -1,0 +1,37 @@
+{
+    "title": "Save extra with No Cost EMI",
+    "products": [
+        {
+            "product_name": "Redmi 12 5G Pastel Blue 8GB RAM 256GB ROM",
+            "rating": "_4.0 out of 5 stars_ __",
+            "numberOfReviews": "1,847",
+            "price": "\u20b913,999",
+            "mrp": "\u20b919,999",
+            "discountPercentage": "30% off",
+            "deliveryStatus": "__Get it by Today, 4 July__ FREE Delivery by Amazon Service: Installation",
+            "couponApplied": "Save \u20b91,000 with coupon"
+        },
+        {
+            "product_name": "OnePlus Nord CE4 Lite 5G (Super Silver, 8GB RAM, 128GB Storage)",
+            "rating": "",
+            "price": "\u20b919,999",
+            "mrp": "\u20b920,999",
+            "discount": "(5% off)",
+            "offer": "Flat INR 1000 Off on ICICI CreditCards",
+            "delivery_date": "Get it by Today, 4 July",
+            "free_delivery": true,
+            "service": "Installation",
+            "sold_quantity": "5K+ bought in past month",
+            "is_limited_time_deal": true
+        }
+    ],
+    "recommendations": [
+        {
+            "URL": "https://www.amazon.in/realme-Storage-Display-Dimensity-Charger/dp/B0CZS3B3PY/ref=sr_1_9?dib=eyJ2IjoiMSJ9.QDF_glaotqvQCrTuMhD8h3lNcdVnuaYTKUy518Do4H9DmVy8GPU5_yyt5pju5yFdvjkfOBZ44OIFOTSMTTwXondFBvQ4lJavDC2GbUvmi4IzWn1uOWFfFeGGZ2Hq0NgQlpyxTpQkZ5gVr2OQaf_Nj_8JKZwrYBFp0rBrBspoeJTh8P5MZ9AXV9pJF1nj46TLMUfmT3-EZVTP0HSJEMEkemUROb3y3SvarsyLBBBBxKI_5j7DXLH-XgpiVCNisUzE6Vy3oaklBFOKj9mQksnXT6nsAzbtU8C5NFs-tJFr1kE.MwCMv-zCuVO-0ho_NtqjPmJubOf75gPNNNxpIOQAWno&dib;_tag=se&qid;=1720037183&refinements;=p_89%3AMotorola%7COnePlus%7CRedmi%7CSamsung%7CboAt%7Crealme&s;=electronics&sr;=1-9",
+            "Title": "realme Smart TV 4K Google TV HD LED Android TV (50 inch, Ultra-Slim Design)",
+            "Price": "",
+            "ImageURL": "https://m.media-amazon.com/images/I/81YJ5lDwQvL._AC_UL320_.jpg",
+            "Brand": "realme"
+        }
+    ]
+}
