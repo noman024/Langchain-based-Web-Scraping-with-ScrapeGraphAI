@@ -1,0 +1,64 @@
+{
+    "products": [
+        {
+            "name": "$149.00 Android 11 Unlocked Smartphone | 3-Day Battery | Dual SIM | 3/32GB | 6.52-Inch Screen | Not Compatible with Verizon or AT&T;",
+            "rating": "4.1 out of 5 stars",
+            "reviews": "24",
+            "price": "$149.00",
+            "availability": "Delivery Mon, Jul 29",
+            "ship_to": "Bangladesh"
+        },
+        {
+            "name": "$236.26 Moto G 5G | 2022 | Blue",
+            "rating": "4.1 out of 5 stars",
+            "reviews": "9,934",
+            "price": "$236.26",
+            "availability": "Only 1 left in stock - order soon.",
+            "additional_info": [
+                "Amazon Music offer with this purchase",
+                "Delivery Mon, Jul 29",
+                "Ships to Bangladesh"
+            ]
+        },
+        {
+            "name": "$89.99 Nokia C21 Plus | Android 11 (Go Edition) | Unlocked GSM Smartphone | 2-Day Battery | Dual SIM | 3/32GB | 6.52-Inch Screen | Charcoal | Not Compatible with Verizon or AT&T;",
+            "rating": "4.1 out of 5 stars",
+            "reviews": "24",
+            "price": "$89.99",
+            "availability": "Delivery Tue, Jul 23",
+            "ship_to": "Bangladesh"
+        },
+        {
+            "name": "$105.99 Google Pixel 4 - Just Black - 64GB - Unlocked",
+            "rating": "4.1 out of 5 stars",
+            "reviews": "2,249",
+            "price": "$105.99",
+            "availability": "",
+            "sustainability_features": [
+                "Energy efficiency - Conserves energy compared to similar products.",
+                "As certified by EPEAT"
+            ]
+        },
+        {
+            "name": "$105.99 Google Pixel 4 - Clearly White - 64GB - Unlocked",
+            "rating": "4.1 out of 5 stars",
+            "reviews": "2,249",
+            "price": "$105.99",
+            "availability": "",
+            "sustainability_features": [
+                "Energy efficiency - Conserves energy compared to similar products.",
+                "As certified by EPEAT"
+            ]
+        }
+    ],
+    "images": [
+        "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:135-9425264-6212508:K0B1RT3W6BTDDK5CKEGX$uedata=s:%2Frd%2Fuedata%3Fstaticb%26id%3DK0B1RT3W6BTDDK5CKEGX:0",
+        "https://m.media-amazon.com/images/I/61K1Fz5LxvL._AC_UL320_.jpg",
+        "https://m.media-amazon.com/images/I/41nbiLV-e3L._AC_US40_.jpg",
+        "https://m.media-amazon.com/images/I/41Fh2y2r3CL._AC_US40_.jpg",
+        "https://m.media-amazon.com/images/I/416et7LUcwL._AC_US40_.jpg",
+        "https://m.media-amazon.com/images/I/71K-HMTsGHL._AC_UL320_.jpg",
+        "https://m.media-amazon.com/images/I/41STgQs7-mL._AC_US40_.jpg",
+        "https://m.media-amazon.com/images/I/412R6G9vv5L._AC_US40_.jpg"
+    ]
+}

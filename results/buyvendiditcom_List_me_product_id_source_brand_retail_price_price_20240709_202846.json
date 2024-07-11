@@ -1,0 +1,27 @@
+{
+    "products": [
+        {
+            "product_id": "DEWALT 20V MAX POWERSTACK Compact Battery",
+            "source": "buy.vendidit.com",
+            "brand": "DEWALT",
+            "retail_price": "$129",
+            "price": "$24",
+            "category": "Electronics",
+            "condition": "Like New",
+            "description": "Damaged? : No\nIn Packaging? : No\nAssembly Required? : No\nMissing Parts? : No\nFunctional? : No\nUPC: NOUPC{1277485}",
+            "lead": "",
+            "quantity": "1",
+            "sku": "NOUPC1277485",
+            "upc": "NOUPC1277485",
+            "ean": "NA",
+            "isbn": "NA",
+            "mpn": "NA",
+            "jan": "NA",
+            "part_number": "NA",
+            "model_number": "NA",
+            "asin": "NA",
+            "created_at": "Not provided",
+            "updated_at": "Not provided"
+        }
+    ]
+}

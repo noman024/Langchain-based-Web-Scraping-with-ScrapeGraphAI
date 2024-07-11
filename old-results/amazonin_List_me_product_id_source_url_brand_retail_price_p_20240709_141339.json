@@ -1,0 +1,85 @@
+{
+    "assistant": {
+        "language": "en",
+        "memory": {
+            "time_slots": [
+                {
+                    "name": "with setup",
+                    "details": [
+                        "Free installation on Washing Machines and Refrigerator, Paid Installations for Air Conditioners and Chimneys. For Brand provided AC installations, service charges will have to be paid directly to the brand technician.",
+                        "Free assembly services for Furniture items requiring professional assembly",
+                        "Paid set-up service on Laptops and SSD",
+                        "Installation/Assembly &/or Set-up services are also available on Dishwashers, Security cameras, Cycles, Inverters, Soundbars",
+                        "Automotive support: Tyre installation, Engine oil change, Brake disk replacement etc. available in select pincodes"
+                    ]
+                }
+            ]
+        },
+        "version": "1.0"
+    },
+    "products": [
+        {
+            "title": "Redmi",
+            "ratings": "90% positive ratings from 100K+ customers",
+            "orders": "100K+ recent orders from this brand",
+            "years_on_amazon": "9+ years on Amazon",
+            "highly_rated_for": [
+                "value for money",
+                "good performance",
+                "looks good"
+            ],
+            "time_slot_details": [
+                {
+                    "name": "with setup",
+                    "details": [
+                        "Free installation on Washing Machines and Refrigerator",
+                        "Paid Installations for Air Conditioners and Chimneys. For Brand provided AC installations, service charges will have to be paid directly to the brand technician.",
+                        "Free assembly services for Furniture items requiring professional assembly",
+                        "Paid set-up service on Laptops and SSD",
+                        "Installation/Assembly &/or Set-up services are also available on Dishwashers, Security cameras, Cycles, Inverters, Soundbars",
+                        "Automotive support: Tyre installation, Engine oil change, Brake disk replacement etc. available in select pincodes"
+                    ]
+                }
+            ],
+            "phone_setup_service": {
+                "description": "Add Phone set up service",
+                "details": {
+                    "price": "\u20b9349.00",
+                    "ratings": "_4.0 stars_ (519)",
+                    "other_info": "Service performed by trained technician at your scheduled date & time\nPhone Setup: SIM & memory card setup\nThis service requires a stable internet connection (4-in-1 super pixel) with the following modes: Photo | Portrait | Night | Video | 50MP mode | Time-lapse | Classic film filters | Frame | HDR | Google lens | Voice Shutter |\n\u203a See more product details"
+                }
+            },
+            "amazon_delivered": "Amazon directly manages delivery for this product. Order now to ensure quick and reliable delivery.",
+            "reviews": [
+                {
+                    "link": "https://www.amazon.in/product-reviews/B0D54GQVRN",
+                    "title": "Redmi Leather Storage 10000mAh Power Bank Review - Amazon.in"
+                },
+                {
+                    "link": "https://www.amazon.in/product-reviews/B0CVL3488L",
+                    "title": "Realme 6 Pro Review: A worthy flagship killer for the budget-conscious - Amazon.in"
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "name": "get_product_details",
+            "arguments": {
+                "product_title": "Redmi"
+            }
+        },
+        {
+            "name": "request_time_slot",
+            "arguments": {
+                "service_type": "Installation/Assembly &/or Set-up"
+            }
+        },
+        {
+            "name": "show_product_reviews",
+            "arguments": {
+                "product_title": "Redmi"
+            }
+        }
+    ]
+}

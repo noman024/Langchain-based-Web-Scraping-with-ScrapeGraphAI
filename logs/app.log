@@ -6,3 +6,180 @@ prompt: List me the mobile names and prices
 source: https://bikroy.com/bn/ads/dhaka/mobile-phones
 2024-07-04 04:02:35,592 - INFO - Scraping successful!
 2024-07-04 04:17:23,603 - INFO - Scraping successful!
+2024-07-07 23:07:20,929 - INFO - Scraping requested with...
+prompt: List me the product name and price
+source: https://www.daraz.com.bd/mens-wallets/
+2024-07-07 23:13:20,290 - INFO - Scraping successful!
+2024-07-09 12:39:31,867 - INFO - Scraping requested with...
+prompt: List me product_id, source_url, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, updated_at for each product
+source: https://www.daraz.com.bd/smartphones/
+2024-07-09 12:55:19,106 - INFO - Scraping successful!
+2024-07-09 13:00:02,275 - INFO - Scraping requested with...
+prompt: List me product_id, source_url, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, updated_at for each product
+source: https://www.amazon.in/s?i=electronics&bbn=1389401031&rh=n%3A1389401031%2Cp_89%3AApple%7CNokia%7COnePlus%7CRedmi%7CSamsung%7CboAt%7Crealme&dc&qid=1720508386&rnid=3837712031&ref=sr_nr_p_89_7&ds=v1%3AHbh8alqcfueZWn9Vx7I8P9O3fzbqR2aWeMx6qN73zpg
+2024-07-09 13:25:20,253 - INFO - Scraping successful!
+2024-07-09 13:40:06,266 - INFO - Scraping requested with...
+prompt: List me product_id, source_url, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, updated_at for each product
+source: https://www.amazon.in/Redmi-Startrail-Storage-MediaTek-Dimensity/dp/B0CNX82VVQ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.2vaHYCliE3wMVavwBcAKgDaKWZr4tQ3tUmLIN9mWfV-gOGsaV1dgsVeLOIN9drScDDWMzDj-miHOXeRxK_9ifLujniSug6jLmgcXlXvu4s2KMZ389f25wMTdhE-8vHc8qlCXvoxivhFf73ydWMoTbtNMChOBDTH1I2oFmpLdkpLM7fnkUTwe2uj_Tt0-SIFe8B8ZF-yPyOD7uCMalHvXMsSsF6u2mbHSlob4QoQARiZLl1y29ZUCrFqL9Rl0nDZGq1dmzd0MRk-Awr2wLK8lLbPUhV6qiSjCJu6FjFGaRiM.3W-CQUUAGKMT3YLZ7CjP5wp9gJTo__yr12teGDDFh6I&dib_tag=se&qid=1720508389&refinements=p_89%3AApple%7CNokia%7COnePlus%7CRedmi%7CSamsung%7CboAt%7Crealme&rnid=3837712031&s=electronics&sr=1-1
+2024-07-09 13:54:31,749 - INFO - Scraping successful!
+2024-07-09 13:58:11,573 - INFO - Scraping requested with...
+prompt: List me product_id, source_url, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, updated_at for each product
+source: https://www.amazon.in/Redmi-Startrail-Storage-MediaTek-Dimensity/dp/B0CNX82VVQ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.2vaHYCliE3wMVavwBcAKgDaKWZr4tQ3tUmLIN9mWfV-gOGsaV1dgsVeLOIN9drScDDWMzDj-miHOXeRxK_9ifLujniSug6jLmgcXlXvu4s2KMZ389f25wMTdhE-8vHc8qlCXvoxivhFf73ydWMoTbtNMChOBDTH1I2oFmpLdkpLM7fnkUTwe2uj_Tt0-SIFe8B8ZF-yPyOD7uCMalHvXMsSsF6u2mbHSlob4QoQARiZLl1y29ZUCrFqL9Rl0nDZGq1dmzd0MRk-Awr2wLK8lLbPUhV6qiSjCJu6FjFGaRiM.3W-CQUUAGKMT3YLZ7CjP5wp9gJTo__yr12teGDDFh6I&dib_tag=se&qid=1720508389&refinements=p_89%3AApple%7CNokia%7COnePlus%7CRedmi%7CSamsung%7CboAt%7Crealme&rnid=3837712031&s=electronics&sr=1-1&th=1
+2024-07-09 14:13:40,611 - INFO - Scraping successful!
+2024-07-09 14:22:51,399 - INFO - Scraping requested with...
+prompt: List me product_id, source_url, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, updated_at for each product. If any key not found, keep it as null, but you have keep all the keys listed here. No additional information needed.
+source: https://www.daraz.com.bd/products/oneplus-nord-n30-se-5g-4128-smartphone-i367013885-s1830770243.html?spm=a2a0e.searchlistcategory.sku.1.2471310cxpJ5Qs&search=1
+2024-07-09 15:51:11,020 - ERROR - Error occurred: No output from scrap.py
+2024-07-09 18:32:16,266 - INFO - Scraping requested with...
+prompt: List me the product id, brand, price, category, condition, description, quantity, and unique identifier of each product found in the URL. Also, access all the URLs found in this URL.
+source: https://bstock.com/supplystore/auction/auction/list/?seller=1551
+2024-07-09 18:45:28,308 - ERROR - Error occurred: No output from scrap.py
+2024-07-09 18:51:12,866 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://bstock.com/supplystore/auctions/cell-phones/apple-iphone-11-pro-max/id/624240/
+2024-07-09 18:55:02,197 - INFO - Scraping successful!
+2024-07-09 18:56:41,820 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below for each mobile
+source: https://bstock.com/supplystore/auctions/cell-phones/apple-iphone-11-pro-max/id/624240/
+2024-07-09 18:59:31,001 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.amazon.com/cell-phones/s?k=cell+phones
+2024-07-09 19:00:05,744 - ERROR - Error occurred: No output from scrap.py
+2024-07-09 19:02:51,242 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.amazon.in/s?i=electronics&bbn=1389401031&rh=n%3A1389401031%2Cp_89%3AApple%7CNokia%7COnePlus%7CRedmi%7CSamsung%7CboAt%7Crealme&dc&qid=1720530156&rnid=3837712031&ref=sr_nr_p_89_7&ds=v1%3AsL3o7%2BTND8Iy3Me6xvoABRX7rky%2FRcTaYOUO1kmCDG8
+2024-07-09 19:03:42,145 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.daraz.com.bd/smartphones/
+2024-07-09 19:04:21,847 - ERROR - Error occurred: No output from scrap.py
+2024-07-09 19:05:11,972 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.walmart.com/cp/cell-phones/1105910
+2024-07-09 19:06:10,643 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.daraz.com.bd/smartphones/
+2024-07-09 19:06:45,886 - ERROR - Error occurred: No output from scrap.py
+2024-07-09 19:07:26,290 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.daraz.com.bd/smartphones/benco-124622657--imam-124344089--apple--motorola--nillkin--realme-201624--tecno--honor--itel-123544848--zte--oppo--iphone-1--symphony--vivo--xiaomi-brand--nokia--walton-brand--infinix--oneplus/?from=sideFilters
+2024-07-09 19:11:06,217 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information for all products
+source: https://www.buy.vendidit.com/search?category=37&page=1
+2024-07-09 19:16:29,593 - INFO - Scraping successful!
+2024-07-09 19:17:48,651 - INFO - Scraping successful!
+2024-07-09 19:19:34,582 - INFO - Scraping successful!
+2024-07-09 19:21:14,779 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.amazon.in/Redmi-Startrail-Storage-MediaTek-Dimensity/dp/B0CNX6WVG5/ref=sr_1_1?dib=eyJ2IjoiMSJ9.wNLWACC_oGpJ-aL8mBmpWldBsfzguZxi0IVtJqX7JsugOGsaV1dgsVeLOIN9drScDDWMzDj-miHOXeRxK_9ifOTXsdYXxcsjdMrTyE6LW2-7HBB98b1yoN8MT5PT_PZkSIFiL1rqo4inAZDPeG4zodNMChOBDTH1I2oFmpLdkpLM7fnkUTwe2uj_Tt0-SIFe8B8ZF-yPyOD7uCMalHvXMsSsF6u2mbHSlob4QoQARiZLl1y29ZUCrFqL9Rl0nDZG9BKsSBAE2kX2vsjFMSjka9mP39bGzL6xEVAvoRO5MhQ.WgfYzz4RQyufAge_SiamEdpfSP1NEmCe6VFLe31OYqM&dib_tag=se&qid=1720530159&refinements=p_89%3AApple%7CNokia%7COnePlus%7CRedmi%7CSamsung%7CboAt%7Crealme&rnid=3837712031&s=electronics&sr=1-1&th=1
+2024-07-09 19:21:54,761 - ERROR - Error occurred: No output from scrap.py
+2024-07-09 19:22:09,002 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.walmart.com/browse/cell-phones/all-cell-phones/1105910_5296594
+2024-07-09 19:22:30,059 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.amazon.in/Redmi-Startrail-Storage-MediaTek-Dimensity/dp/B0CNX6WVG5/ref=sr_1_1?dib=eyJ2IjoiMSJ9.wNLWACC_oGpJ-aL8mBmpWldBsfzguZxi0IVtJqX7JsugOGsaV1dgsVeLOIN9drScDDWMzDj-miHOXeRxK_9ifOTXsdYXxcsjdMrTyE6LW2-7HBB98b1yoN8MT5PT_PZkSIFiL1rqo4inAZDPeG4zodNMChOBDTH1I2oFmpLdkpLM7fnkUTwe2uj_Tt0-SIFe8B8ZF-yPyOD7uCMalHvXMsSsF6u2mbHSlob4QoQARiZLl1y29ZUCrFqL9Rl0nDZG9BKsSBAE2kX2vsjFMSjka9mP39bGzL6xEVAvoRO5MhQ.WgfYzz4RQyufAge_SiamEdpfSP1NEmCe6VFLe31OYqM&dib_tag=se&qid=1720530159&refinements=p_89%3AApple%7CNokia%7COnePlus%7CRedmi%7CSamsung%7CboAt%7Crealme&rnid=3837712031&s=electronics&sr=1-1&th=1
+2024-07-09 19:22:59,490 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information for all products
+source: https://www.buy.vendidit.com/product/37365
+2024-07-09 19:23:05,402 - ERROR - Error occurred: No output from scrap.py
+2024-07-09 19:24:58,915 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.amazon.in/POCO-Power-Black-128GB-Storage/dp/B0CDRVG19T/ref=pd_bxgy_thbs_d_sccl_1/262-9950755-0828224?pd_rd_w=SvgQy&content-id=amzn1.sym.f406cf11-1229-4650-9e74-6c521f43ef93&pf_rd_p=f406cf11-1229-4650-9e74-6c521f43ef93&pf_rd_r=YMF9GN336S3A43ADFW7Y&pd_rd_wg=7Y8rn&pd_rd_r=36a311f3-a915-465d-b7cf-91a793af50ac&pd_rd_i=B0CDRVG19T&psc=1
+2024-07-09 19:25:34,560 - ERROR - Error occurred: No output from scrap.py
+2024-07-09 19:26:04,955 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.target.com/c/cell-phones-electronics/-/N-5xte8
+2024-07-09 19:26:29,733 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.amazon.in/POCO-Power-Black-128GB-Storage/dp/B0CDRVG19T/ref=pd_bxgy_thbs_d_sccl_1/262-9950755-0828224?pd_rd_w=SvgQy&content-id=amzn1.sym.f406cf11-1229-4650-9e74-6c521f43ef93&pf_rd_p=f406cf11-1229-4650-9e74-6c521f43ef93&pf_rd_r=YMF9GN336S3A43ADFW7Y&pd_rd_wg=7Y8rn&pd_rd_r=36a311f3-a915-465d-b7cf-91a793af50ac&pd_rd_i=B0CDRVG19T&th=1
+2024-07-09 19:26:40,472 - ERROR - Error occurred: No output from scrap.py
+2024-07-09 19:27:05,210 - ERROR - Error occurred: No output from scrap.py
+2024-07-09 19:33:09,744 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.target.com/c/iphone/-/N-4y71u
+2024-07-09 19:33:39,532 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.amazon.in/dp/B0CVKVGZP1/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B0CVKVGZP1&pd_rd_w=Rv9bk&content-id=amzn1.sym.9f1cb690-f0b7-44de-b6ff-1bad1e37d3f0&pf_rd_p=9f1cb690-f0b7-44de-b6ff-1bad1e37d3f0&pf_rd_r=R6MMTGR130FT12N0WRWQ&pd_rd_wg=eHwvO&pd_rd_r=507e4754-30ff-4e87-a4dd-731eaf9dc34c&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+2024-07-09 19:34:15,265 - ERROR - Error occurred: No output from scrap.py
+2024-07-09 19:36:12,083 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.amazon.in/dp/B0CVKVGZP1/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B0CVKVGZP1&pd_rd_w=Rv9bk&content-id=amzn1.sym.9f1cb690-f0b7-44de-b6ff-1bad1e37d3f0&pf_rd_p=9f1cb690-f0b7-44de-b6ff-1bad1e37d3f0&pf_rd_r=R6MMTGR130FT12N0WRWQ&pd_rd_wg=eHwvO&pd_rd_r=507e4754-30ff-4e87-a4dd-731eaf9dc34c&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWxfdGhlbWF0aWM
+2024-07-09 19:37:00,179 - ERROR - Error occurred: No output from scrap.py
+2024-07-09 19:43:12,373 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information for all products
+source: https://www.amazon.com/Cell-Phones-Smartphone-Accessories/s?rh=n%3A7072561011%2Cp_n_feature_eleven_browse-bin%3A14674898011
+2024-07-09 19:43:25,010 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information for all products
+source: https://www.amazon.com/Cell-Phones-Smartphone-Accessories/s?rh=n%3A7072561011%2Cp_n_feature_eleven_browse-bin%3A14674898011
+2024-07-09 19:49:59,519 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information for all products
+source: https://www.amazon.com/Cell-Phones-Smartphone-Accessories/s?rh=n%3A7072561011%2Cp_n_feature_eleven_browse-bin%3A14674898011
+2024-07-09 20:06:29,250 - INFO - Scraping successful!
+2024-07-09 20:13:57,966 - INFO - Scraping successful!
+2024-07-09 20:24:48,618 - INFO - Scraping successful!
+2024-07-09 20:29:00,933 - INFO - Scraping successful!
+2024-07-09 20:45:17,333 - INFO - Scraping successful!
+2024-07-09 21:24:23,111 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.target.com/c/iphone/-/N-4y71u
+2024-07-09 21:25:23,740 - ERROR - Error occurred: No output from scrap.py
+2024-07-09 21:26:42,361 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.buy.vendidit.com/search?category=37&page=1
+2024-07-09 21:27:21,621 - ERROR - Error occurred: No output from scrap.py
+2024-07-09 21:27:44,271 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.buy.vendidit.com/product/37365
+2024-07-09 21:28:18,094 - ERROR - Error occurred: No output from scrap.py
+2024-07-09 21:31:41,476 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information for all products
+source: https://www.target.com/c/iphone/-/N-4y71u
+2024-07-09 21:32:16,245 - ERROR - Error occurred: No output from scrap.py
+2024-07-09 21:32:54,311 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.walmart.com/ip/Straight-Talk-Samsung-Galaxy-A14-5G-64GB-Black-Prepaid-Smartphone-Locked-to-Straight-Talk/2311706193?athbdg=L1102
+2024-07-09 21:36:38,577 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information for all products
+source: https://www.amazon.com/Cell-Phones-Smartphone-Accessories/s?rh=n%3A7072561011%2Cp_n_feature_eleven_browse-bin%3A14674898011
+2024-07-09 21:40:27,481 - INFO - Scraping successful!
+2024-07-09 21:44:59,766 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.amazon.com/Moto-3-Day-Battery-Unlocked-Camera/dp/B0BQ118F2T/ref=sr_1_1?dib=eyJ2IjoiMSJ9.JBgEWWANFQM0UxbTM5Lhjkhla6OPTOmP96MiCB8KKbjV3TWXRbBwfimStTKWBKPPLseZo4Kv-DdJqL_zcONht1e9dW2MXxjrWmGGOOw-aViD2e-Q9z8DmEyipvxnAAW7jm3cusEmiOot2c1EhXEJO8U_DexVtrBQ-vZSl2MqfmGgvNV1vABTIgFPeYhYwn6RZpXrxcVkSYloPW0jDU_3ZHKaR1KJ6WV4tXDcmeykqua0XIFQTIwJMtMSyDv9Z1Mm0iuIALR6QiJoCLiA-aGsO3o0gKWHoWeevudWPhrUA2o._Mqc5kWN9FCYieV5bKE6p9HOAYhWfv-_MD5KywD7QxI&dib_tag=se&qid=1720532554&refinements=p_n_feature_eleven_browse-bin%3A14674898011&s=wireless&sr=1-1&th=1
+2024-07-09 21:45:57,705 - ERROR - Error occurred: No output from scrap.py
+2024-07-09 21:47:03,047 - INFO - Scraping requested with...
+prompt: List me product_id, source, brand, retail_price, price, category, condition, description, lead, quantity, sku, upc, ean, isbn, mpn, jan, part_number, model_number, asin, created_at, and updated_at information if found from the URLs below
+source: https://www.walmart.com/ip/Straight-Talk-Samsung-Galaxy-A14-5G-64GB-Black-Prepaid-Smartphone-Locked-to-Straight-Talk/2311706193?athbdg=L1102
+2024-07-09 22:45:33,555 - INFO - Scraping requested with...
+prompt: List me all the product links from the URL
+source: https://www.amazon.com/Cell-Phones-Smartphone-Accessories/s?i=mobile&page=3
+2024-07-09 23:25:28,993 - INFO - Scraping successful!
+2024-07-09 23:27:12,041 - INFO - Scraping successful!
+2024-07-09 23:43:23,411 - INFO - Scraping successful!
+2024-07-10 00:11:47,880 - INFO - Scraping requested with...
+prompt: List me all the product links
+source: https://www.amazon.com/Cell-Phones-Smartphone-Accessories/s?i=mobile&page=3
+2024-07-10 00:14:43,454 - INFO - Scraping requested with...
+prompt: list me all the product urls
+source: https://www.walmart.com/ip/Straight-Talk-Samsung-Galaxy-A14-5G-64GB-Black-Prepaid-Smartphone-Locked-to-Straight-Talk/2311706193?athbdg=L1102
+2024-07-10 00:28:03,498 - INFO - Scraping successful!
+2024-07-10 00:28:54,607 - INFO - Scraping successful!
+2024-07-10 20:52:30,479 - INFO - Scraping requested with...
+prompt: Give me all the URLs of cell phones
+source: https://www.amazon.com/cell-phones/s?k=cell+phones
+2024-07-10 20:53:53,251 - INFO - Scraping requested with...
+prompt: Give me all the URLs of cell phones
+source: https://www.amazon.com/cell-phones/s?k=cell+phones
+2024-07-10 20:55:54,605 - INFO - Scraping requested with...
+prompt: List me all the URLs associated with each cell phone name, and price
+source: https://www.amazon.com/cell-phone-devices/b?ie=UTF8&node=7072561011
+2024-07-10 22:25:53,636 - INFO - Scraping requested with...
+prompt: List me all the URLs associated with each cell phone name, and price
+source: https://www.amazon.com/cell-phone-devices/b?ie=UTF8&node=7072561011
+2024-07-10 22:28:50,771 - ERROR - Error occurred: No output from scrap.py
+2024-07-11 19:29:08,591 - INFO - Scraping requested with...
+prompt: List me all the URLs associated with each cell phone name, and price
+source: https://www.amazon.com/cell-phone-devices/b?ie=UTF8&node=7072561011
+2024-07-11 19:45:19,969 - INFO - Scraping successful!
+2024-07-11 20:12:26,315 - INFO - Scraping requested with...
+prompt: List me all the URLs associated with each cell phone name, and price
+source: https://www.amazon.com/cell-phone-devices/b?ie=UTF8&node=7072561011

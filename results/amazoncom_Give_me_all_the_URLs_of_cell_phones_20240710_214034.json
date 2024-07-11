@@ -1,0 +1,25 @@
+{
+    "url": "https://www.amazon.com/s?k=cell+phones&ref=nb_sb_noss",
+    "products": [
+        {
+            "title": "Ring Alarm Security Kit",
+            "url": "https://www.amazon.com/Ring-Alarm-Security-Kit/dp/B07PRJD8XL/ref=sr_1_4?dcb=1&qid=1654251045&refinements=p_n_feature_keywords_two_browse-bin%3ACell+Phones&rnid=728001011&s=wireless"
+        },
+        {
+            "title": "Motorola Moto G Power (2021) with 4G LTE - Unlocked Dual SIM",
+            "url": "https://www.amazon.com/Motorola-Moto-Power-Unlocked-Dual-Sim/dp/B09TG89P52/ref=sr_1_3?dcb=1&qid=1654251045&refinements=p_n_feature_keywords_two_browse-bin%3ACell+Phones&rnid=728001011&s=wireless"
+        },
+        {
+            "title": "Smartwatches",
+            "url": "https://www.amazon.com/s?k=smartwatch&ref=nb_sb_noss_2"
+        },
+        {
+            "title": "Google Nest Indoor Cam (2nd gen)",
+            "url": "https://www.amazon.com/Google-Nest-Indoor-Security-Cam/dp/B074VQ9YM6/ref=sr_1_3?dcb=1&qid=1654251045&refinements=p_n_feature_keywords_two_browse-bin%3ASmart+Home&rnid=1708461011&rsvpWasRight=0&th=1"
+        },
+        {
+            "title": "Apple Watch Series 7 (GPS + Cellular)",
+            "url": "https://www.amazon.com/Apple-Watch-Series-7-Cellular/dp/B08ZXKNQ31/ref=sr_1_4?dcb=1&qid=1654251045&refinements=p_n_feature_keywords_two_browse-bin%3AWatches&rnid=379834001&s=kitchen"
+        }
+    ]
+}

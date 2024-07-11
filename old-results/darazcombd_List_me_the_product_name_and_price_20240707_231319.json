@@ -1,0 +1,16 @@
+{
+    "Product List": [
+        {
+            "Name": "Item 1",
+            "Price": "Price for Item 1"
+        },
+        {
+            "Name": "Item 2",
+            "Price": "Price for Item 2"
+        },
+        {
+            "Name": "Item 3",
+            "Price": "Price for Item 3"
+        }
+    ]
+}

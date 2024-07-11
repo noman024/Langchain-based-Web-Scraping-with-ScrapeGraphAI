@@ -1,0 +1,27 @@
+{
+    "products": [
+        {
+            "product_id": "",
+            "source": "https://www.target.com",
+            "brand": "",
+            "retail_price": "",
+            "price": "",
+            "category": "electronics",
+            "condition": "",
+            "description": "Free 2-Day Shipping: When you use your Target CircleTM Card (debit, credit, and reloadable) for your Target.com purchases or are a Target Circle 360TM member, you receive free standard shipping on most items and free 2-day shipping on eligible items. Hundreds of thousands of items qualify for 2-day shipping. Item eligibility and assortment vary by market and are determined by the location of the item and the destination ZIP code.",
+            "lead": "",
+            "quantity": "",
+            "sku": "",
+            "upc": "",
+            "ean": "",
+            "isbn": "",
+            "mpn": "",
+            "jan": "",
+            "part_number": "",
+            "model_number": "",
+            "asin": "",
+            "created_at": "",
+            "updated_at": ""
+        }
+    ]
+}

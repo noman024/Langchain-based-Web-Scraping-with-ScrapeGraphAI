@@ -1,0 +1,69 @@
+{
+    "website": "Daraz",
+    "homepage_url": "https://www.daraz.com.bd",
+    "categories": {
+        "Smart Phones": {
+            "title": "Shop Smart Phones Online in Bangladesh",
+            "description": "Find a wide variety of smartphones from popular brands like OnePlus, Realme, Symphony, Tecno and more. Enjoy fast delivery, vouchers, and everyday low prices!",
+            "items": [
+                {
+                    "productName": "OnePlus Nord N30 SE 5G (4+128) Smartphone",
+                    "rating": "4.5/5",
+                    "soldCount": 890,
+                    "voucherCount": 4,
+                    "price": "\u09f315,750",
+                    "wasPrice": "\u09f3 15,999"
+                },
+                {
+                    "productName": "Symphony Z60 Plus ( 6 GB/ 128 GB)",
+                    "rating": "4.6/5",
+                    "soldCount": 897,
+                    "voucherCount": 4,
+                    "price": "\u09f311,099",
+                    "wasPrice": "\u09f3 11,999"
+                },
+                {
+                    "productName": "Realme C55 - (6GB/128GB)",
+                    "rating": "4.7/5",
+                    "soldCount": 1000,
+                    "voucherCount": 4,
+                    "price": "",
+                    "wasPrice": ""
+                },
+                {
+                    "productName": "Samsung Galaxy M12 (128GB + 64GB)",
+                    "rating": "4.7/5",
+                    "soldCount": "",
+                    "voucherCount": "",
+                    "price": "\u09f316,999",
+                    "wasPrice": "\u09f317,999"
+                },
+                {
+                    "productName": "Apple iPhone 12 mini",
+                    "rating": "",
+                    "soldCount": "",
+                    "voucherCount": "",
+                    "price": "",
+                    "wasPrice": ""
+                }
+            ]
+        }
+    },
+    "social_media": {
+        "Facebook": "https://www.facebook.com/DarazBangladesh/",
+        "Twitter": "https://twitter.com/DarazBangladesh/",
+        "YouTube": "https://www.youtube.com/c/DarazBangladeshOfficial/"
+    },
+    "blogs": [
+        "daily-deals/",
+        "daraz-cares/",
+        "pages.daraz.com.bd/wow/gcp/daraz/channel/bd/dmart/index.html"
+    ],
+    "images": [
+        "https://img.alicdn.com/imgextra/i1/O1CN01Ie2YnK1JmZ1mL3fY5_!!6000000001071-2-tps-60-60.png",
+        "https://icms-image.slatic.net/images/ims-web/d19edbfe-4ab9-486f-ba66-b29d80483a50.png",
+        "https://icms-image.slatic.net/images/ims-web/8f2bd105-9cf3-45ba-af3d-ba979a63cc3c.png",
+        "https://img.alicdn.com/tfs/TB1g_wNhXpYBeJjSZFkXXauypXa-1024-1024.jpg",
+        "https://www.darazlogisticsbd.com/_nuxt/img/logo-new-white.f7968c7.png"
+    ]
+}

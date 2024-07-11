@@ -62,9 +62,9 @@ def main():
     graph_config = {
         "llm": {
             "model": "ollama/mistral",
-            "temperature": 1,
+            "temperature": 0,
             "format": "json",
-            "model_tokens": 2000,
+            "model_tokens": 8192,
             "base_url": "http://127.0.0.1:11434",
         },
         "embeddings": {

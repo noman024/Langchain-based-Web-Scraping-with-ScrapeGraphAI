@@ -1,0 +1,104 @@
+{
+    "title": "Smart Phones on Daraz: Find the Best Deals with Free Delivery & Wholesale Price!",
+    "header": "<h1>Smart Phones on Daraz: Find the Best Deals with Free Delivery & Wholesale Price!</h1>",
+    "content": [
+        {
+            "title": "Brands:",
+            "options": [
+                "Realme",
+                "Tecno",
+                "Infinix",
+                "Walton",
+                "Benco",
+                "iphone",
+                "Apple",
+                "Vivo",
+                "Nillkin",
+                "Honor",
+                "OPPO",
+                "Symphony",
+                "Imam",
+                "Motorola",
+                "ZTE",
+                "Nokia",
+                "Xiaomi",
+                "itel",
+                "OnePlus"
+            ],
+            "type": "select"
+        },
+        {
+            "title": "Sort By:",
+            "options": [
+                "Best Match"
+            ],
+            "type": "text"
+        },
+        {
+            "title": "Show:",
+            "options": [
+                "7.7 products only"
+            ],
+            "type": "text"
+        },
+        {
+            "title": "Products:",
+            "items": [
+                {
+                    "__symlink": "/products/symphony-z60-plus-6-gb-128-gb-i316948918-s1436466194.html?search=1",
+                    "name": "Symphony Z60 Plus ( 6 GB/ 128 GB)",
+                    "rating": "4.6/5(151)",
+                    "sold": "897 Sold",
+                    "vouchers": "4 Vouchers",
+                    "price": "\u20b911,099",
+                    "discountedPrice": "~~ \u20b9 11,999 ~~"
+                },
+                {
+                    "__symlink": "/products/realme-c55-6gb128gb-i307550053-s1379503632.html?search=1",
+                    "name": "Realme C55 - (6GB/128GB)",
+                    "rating": "4.7/5(202)",
+                    "sold": "1K Sold",
+                    "vouchers": "4 Vouchers",
+                    "price": "\u20b919,562",
+                    "discountedPrice": "~~ \u20b9 19,999 ~~"
+                },
+                {
+                    "__symlink": "/products/imam-i8-ram-3gbrom-32gb3100mah-i316661652-s1434300569.html?search=1",
+                    "name": "Imam i8 Dhalia (RAM-3GB/ROM-32GB)3100mAH Mobile Phone",
+                    "rating": "3.7/5(47)",
+                    "sold": "701 Sold",
+                    "vouchers": "Free Delivery",
+                    "price": "\u20b93,698"
+                },
+                {
+                    "__symlink": "/products/honor-x7b-8-256gb-large-storage-6-8-inch-hyper-transmissive-large-screen-6000mAh-3-days-battery-life-108mp-camera-ultra-wide-angle-lens-quad-camera-4g-smartphone-i3251598746-s1543987659.html",
+                    "name": "Honor X7b (8/256GB) Large Storage 6.8-inch Hyper Transmissive Large Screen, 6000mAh Battery Life, 108MP Camera, Ultra Wide Angle Lens Quad Camera, 4G Smartphone",
+                    "rating": "4.3/5(7)",
+                    "sold": "2 Sold",
+                    "vouchers": "",
+                    "price": "\u20b918,990"
+                },
+                {
+                    "__symlink": "/products/symphony-innova-30-8-128-smartphone-i3247567217-s1543620033.html",
+                    "name": "Symphony Innova 30 (8/128) Smartphone",
+                    "rating": "4.7/5(16)",
+                    "sold": "148 Sold",
+                    "vouchers": "4 Vouchers",
+                    "price": "\u20b912,649"
+                },
+                {
+                    "__symlink": "/products/tecno-spark-go-2024-4gb-64gb-smartphone-i3251847929-s1544187450.html",
+                    "name": "Tecno Spark Go 2024 4GB/64GB Smartphone - official",
+                    "rating": "4.8/5(12)",
+                    "sold": "52 Sold",
+                    "vouchers": "3 Vouchers",
+                    "price": "\u20b910,610",
+                    "discountedPrice": "~~ \u20b9 10,690 ~~"
+                }
+            ]
+        },
+        {
+            "title": "<a href='https://www.daraz.com'>Shop Now on Daraz</a>"
+        }
+    ]
+}

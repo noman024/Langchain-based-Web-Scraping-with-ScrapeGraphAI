@@ -1,0 +1,75 @@
+{
+    "title": "Top Smartphones Available on Amazon",
+    "chunk1": {
+        "items": [
+            {
+                "text": "https://www.amazon.com/Samsung-Galaxy-A32-5G-Unlocked-Titanium/dp/B08W79RKPZ?ref_=Oct_d_osa_d_7072561011_1&pf;_rd_p=aa3c8715-1b22-47b2-9166-05886e2103a4&pf;_rd_r=J6Y0HR3E60CGW54MJNZ4&pd;_rd_wg=w9YRb",
+                "anchor_text": "Samsung Galaxy A32 5G (Unlocked, Android, Titanium)"
+            },
+            {
+                "text": "https://www.amazon.com/cell-phone-devices/www.amazon.com",
+                "anchor_text": "Cell Phone Devices on Amazon"
+            },
+            {
+                "text": "https://www.amazon.com/Moto-3-Day-Battery-Unlocked-Smartphone/dp/B08XQGY2L6?ref_=Oct_d_orecs_d_7072561011_4&pd;_rd_w=Nydxb",
+                "anchor_text": "Motorola Moto E (4th Gen) with 3 Day Battery Life (Unlocked, 16GB)"
+            },
+            {
+                "text": "https://www.amazon.com/Apple-iPhone-11-64GB-Black/dp/B07ZPKN6YR?ref_=Oct_d_obs_d_7072561011_1&pd;_rd_w=vUedH",
+                "anchor_text": "Apple iPhone 11 (64GB, Black)"
+            },
+            {
+                "text": "https://www.amazon.com/Apple-iPhone-12-64GB-Black/dp/B08PP5MSVB?ref_=Oct_d_obs_d_7072561011_2&pd;_rd_w=vUedH",
+                "anchor_text": "Apple iPhone 12 (64GB, Black)"
+            }
+        ]
+    },
+    "chunk2": {
+        "items": [
+            {
+                "title": "Samsung Galaxy A32 5G (Unlocked, Android, Titanium)",
+                "url": "https://www.amazon.com/Samsung-Galaxy-A32-5G-Unlocked-Titanium/dp/B08W79RKPZ?ref_=Oct_d_osa_d_7072561011_1&pf;_rd_p=aa3c8715-1b22-47b2-9166-05886e2103a4&pf;_rd_r=J6Y0HR3E60CGW54MJNZ4&pd;_rd_wg=w9YRb"
+            },
+            {
+                "title": "Cell Phone Devices on Amazon",
+                "url": "https://www.amazon.com/cell-phone-devices/www.amazon.com"
+            },
+            {
+                "title": "Motorola Moto E (4th Gen) with 3 Day Battery Life (Unlocked, 16GB)",
+                "url": "https://www.amazon.com/Moto-3-Day-Battery-Unlocked-Smartphone/dp/B08XQGY2L6?ref_=Oct_d_orecs_d_7072561011_4&pd;_rd_w=Nydxb"
+            },
+            {
+                "title": "Apple iPhone 11 (64GB, Black)",
+                "url": "https://www.amazon.com/Apple-iPhone-11-64GB-Black/dp/B07ZPKN6YR?ref_=Oct_d_obs_d_7072561011_1&pd;_rd_w=vUedH"
+            },
+            {
+                "title": "Apple iPhone 12 (64GB, Black)",
+                "url": "https://www.amazon.com/Apple-iPhone-12-64GB-Black/dp/B08PP5MSVB?ref_=Oct_d_obs_d_7072561011_2&pd;_rd_w=vUedH"
+            }
+        ]
+    },
+    "chunk3": {
+        "items": [
+            {
+                "title": "Samsung Galaxy A32 5G (Unlocked, Android, Titanium)",
+                "url": "https://www.amazon.com/Samsung-Galaxy-A32-5G-Unlocked-Titanium/dp/B08W79RKPZ?ref_=Oct_d_osa_d_7072561011_1&pf;_rd_p=aa3c8715-1b22-47b2-9166-05886e2103a4&pf;_rd_r=J6Y0HR3E60CGW54MJNZ4&pd;_rd_wg=w9YRb"
+            },
+            {
+                "title": "Cell Phone Devices on Amazon",
+                "url": "https://www.amazon.com/cell-phone-devices/www.amazon.com"
+            },
+            {
+                "title": "Motorola Moto E (4th Gen) with 3 Day Battery Life (Unlocked, 16GB)",
+                "url": "https://www.amazon.com/Moto-3-Day-Battery-Unlocked-Smartphone/dp/B08XQGY2L6?ref_=Oct_d_orecs_d_7072561011_4&pd;_rd_w=Nydxb"
+            },
+            {
+                "title": "Apple iPhone 11 (64GB, Black)",
+                "url": "https://www.amazon.com/Apple-iPhone-11-64GB-Black/dp/B07ZPKN6YR?ref_=Oct_d_obs_d_7072561011_1&pd;_rd_w=vUedH"
+            },
+            {
+                "title": "Apple iPhone 12 (64GB, Black)",
+                "url": "https://www.amazon.com/Apple-iPhone-12-64GB-Black/dp/B08PP5MSVB?ref_=Oct_d_obs_d_7072561011_2&pd;_rd_w=vUedH"
+            }
+        ]
+    }
+}

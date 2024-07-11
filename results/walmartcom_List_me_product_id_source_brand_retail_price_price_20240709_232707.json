@@ -1,0 +1,27 @@
+{
+    "products": [
+        {
+            "product_id": "NA",
+            "source": "Walmart",
+            "brand": "NA",
+            "retail_price": "NA",
+            "price": "NA",
+            "category": "NA",
+            "condition": "NA",
+            "description": "NA",
+            "lead": "NA",
+            "quantity": "NA",
+            "sku": "NA",
+            "upc": "NA",
+            "ean": "NA",
+            "isbn": "NA",
+            "mpn": "NA",
+            "jan": "NA",
+            "part_number": "NA",
+            "model_number": "NA",
+            "asin": "NA",
+            "created_at": "NA",
+            "updated_at": "NA"
+        }
+    ]
+}

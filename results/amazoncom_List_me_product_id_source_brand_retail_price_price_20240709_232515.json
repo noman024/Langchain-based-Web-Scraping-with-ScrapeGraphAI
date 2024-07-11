@@ -1,0 +1,40 @@
+{
+    "title": "Amazon Wireless Devices",
+    "chunk1": {
+        "items": [
+            {
+                "title": "Apple iPhone 13 Pro - Graphite",
+                "link": "https://www.amazon.com/Apple-iPhone-13-Pro-Graphite/dp/B09JHF27M4/ref=sr_1_1?dchild=1&keywords=apple%2BiPhone%2613%26Pro&qid=1632234685&s=wireless&sr=1-1",
+                "image": "https://m.media-amazon.com/images/I/71GvUrXKwYL._AC_SL1500_.jpg"
+            },
+            {
+                "title": "Apple iPhone 13 Pro Max - Silver",
+                "link": "https://www.amazon.com/Apple-iPhone-13-Pro-Max-Silver/dp/B09JHF27Q8/ref=sr_1_2?dchild=1&keywords=apple%2BiPhone%2613%26Pro%2BMax&qid=1632234685&s=wireless&sr=1-2",
+                "image": "https://m.media-amazon.com/images/I/71JvwCWBQTL._AC_SL1500_.jpg"
+            }
+        ]
+    },
+    "chunk2": {
+        "items": [
+            {
+                "title": "Samsung Galaxy S21 Ultra - Phantom Black",
+                "link": "https://www.amazon.com/Samsung-Galaxy-Ultra-Phantom-Unlocked/dp/B08W2HNJ1T/ref=sr_1_1?dchild=1&keywords=samsung%2BGalaxy%2BS21%2BUltra&qid=1632234685&s=wireless&sr=1-1",
+                "image": "https://m.media-amazon.com/images/I/71vYGb6KhFL._AC_SL1500_.jpg"
+            },
+            {
+                "title": "Samsung Galaxy S21 + - Phantom Silver",
+                "link": "https://www.amazon.com/Samsung-Galaxy-Unlocked-Phantom-Silver/dp/B08W3RZ21J/ref=sr_1_2?dchild=1&keywords=samsung%2BGalaxy%2BS21+&qid=1632234685&s=wireless&sr=1-2",
+                "image": "https://m.media-amazon.com/images/I/71bJWGjVuPL._AC_SL1500_.jpg"
+            }
+        ]
+    },
+    "chunk3": {
+        "items": [
+            {
+                "title": "Google Pixel 6 - Stormy Black",
+                "link": "https://www.amazon.com/Google-Pixel-Stormy-Black-Unlocked/dp/B09JLWV2P5/ref=sr_1_1?dchild=1&keywords=google%2BPixel%2B6&qid=1632234685&s=wireless&sr=1-1",
+                "image": "https://m.media-amazon.com/images/I/71GyRUhNJiL._AC_SL1500_.jpg"
+            }
+        ]
+    }
+}
